@@ -1,0 +1,90 @@
+site_name: Impulzus
+site_url: https://gilgames32.github.io/impulzus/
+use_directory_urls: false
+repo_url: https://github.com/Gilgames32/impulzus
+repo_name: Impulzus
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  icon:
+    logo: material/information-box
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - content.code.annotate
+
+extra:
+  generator: false
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: timeago
+      timezone: Europe/Budapest
+      locale: hu
+  - git-committers:
+      repository: Gilgames32/impulzus
+      branch: main
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: false
+      use_pygments: true
+  - pymdownx.tasklist
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.keys:
+      separator: +
+      strict: false
+      camel_case: false
+  - pymdownx.caret:
+      smart_insert: true
+      insert: false
+      superscript: true
+  - pymdownx.tilde
+  # worth checking out: macros, snippets, magiclink
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/code.css
