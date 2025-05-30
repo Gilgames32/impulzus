@@ -7,6 +7,9 @@ edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
+  - Design:
+    - Alapok: design/basics.md
+    - InDesign: design/indesign.md
 
 theme:
   name: material
@@ -73,13 +76,14 @@ markdown_extensions:
   - pymdownx.keys:
       separator: +
       strict: false
-      camel_case: false
+      camel_case: true
   - pymdownx.caret:
       smart_insert: true
       insert: false
       superscript: true
   - pymdownx.tilde
-  # worth checking out: macros, snippets, magiclink
+  - pymdownx.magiclink
+  # worth checking out: macros, snippets
 
 extra_javascript:
   - javascripts/mathjax.js
