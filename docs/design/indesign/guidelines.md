@@ -1,0 +1,1 @@
+# Tördelés az Impulzusnál

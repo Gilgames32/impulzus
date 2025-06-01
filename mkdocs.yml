@@ -8,8 +8,14 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Design:
-    - Alapok: design/basics.md
-    - InDesign: design/indesign.md
+    - InDesign:
+      - design/indesign/index.md
+      - Alapok: design/indesign/basics.md
+      - Szöveg: design/indesign/text.md
+      - Képek: design/indesign/images.md
+      - Irányelvek: design/indesign/guidelines.md
+      - Exportálás: design/indesign/export.md
+    - Alapok: design/design.md
     - Tipográfia: design/typography.md
 
 theme:
@@ -38,6 +44,7 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.top
+    - navigation.footer
     - content.code.annotate
 
 extra:
