@@ -4,11 +4,11 @@
 
 ## Projektek
 
-<!-- TODO 
-nem ezzel kezdeném, most csak csinálunk egyet gyors
--->
+Ez fogad minket elsőre, itt tudunk új dokumentumot létrehozni. 
 
 ![](img/home.png)
+
+Részletesebb beállíátokat a `More Presets` alatt találunk. Nekünk egyelőre elég az alap A4-es.
 
 ## A felület
 
@@ -45,14 +45,34 @@ Nem kell minden gyorsbillentyűt tudni kívülről, később a nagy részét am�
 
 # Alap koncepciók
 
-## Gizmók
+## Objektumok
 
-<!-- TODO
-v, a 
-legfelső réteg elemeinek prio kijelölésnél, ctrl kattintással a mögötte lévőt is lehet
+A legtöbb dolgot objektumnak tekinthetjük, legyen az szövegdoboz, képkeret, vonal vagy egyéb forma.
 
-módosítók: shift, alt, ctrl mit csinálnak 
--->
+Szúrjunk be egy téglalapot a `Rectangle Tool`-lal (++m++).
+
+![](img/objects_rectangle.png){height=360}
+
+Az objektumainkat a `Selection Tool`-lal (++v++) tudjuk kijelölni, mozgatni, átméretezni, forgatni stb.
+Kijelöléshez kattintsunk az objektumra, húzással vagy a ++ctrl++ nyomvatartásával kijelölhetünk akár többet is.
+(Mivel üres a téglalapunk belseje, ezért ezt a kereténél vagy a középső bigyusznál fogva tudjuk mozgatni.)
+
+!!! tip "Kijelölés"
+    Átlapolódás esetén a legfelső réteg elemeit fogja kiválasztani, de ha ++ctrl++-t nyomvatartva kattintunk, akkor a mögötte lévő elemet fogja kiválasztani, ha még egyszerűen kattintunk, akkor az azalatt lévőt, és így tovább.
+
+A `Direct Selection Tool`-lal (++a++) tudjuk az objektumunk belső pontjait mozgazni. 
+Például a téglalapunk esetén kiválaszthatunk pontokat és szabadon mozgathatjuk őket.
+
+![](img/objects_dst_1.png){height=360}
+![](img/objects_dst_2.png){height=360}
+
+!!! tip "A módosítóbillenytűk általánosságban"
+    A módosítóbillentyűk a legtöbb objektumnál ugyan úgy viselkednek.
+
+    - ++shift++: méretezésnél tartja az arányokat, mozgatásnál csak vízszintesen, függőlegesen és átlósan enged mozgatni, forgatásnál 45 fokos lépésekben forgat
+    - ++alt++: méretezésnél a középpontból méretez, ha nyomva tartjuk és úgy mozgatunk valamit, akkor lemásolja az objektumot
+    - ++ctrl++: nyomvatartva több elemet is kijelölhetünk vele egyszerre
+
 
 ## Rétegek és keretek
 
@@ -70,7 +90,9 @@ Ha egyszerre több elemet szeretnénk, azt a ++shift++-tel tudjuk megtenni.
 Fontos, hogy csak azokat az elemeket fogjuk látni a rétegeken, amik a kijelölt oldalon/oldalpáron vannak.
 (Oldalpárt kijelölni dupla kattintással a `Pages` tabon, vagy csak simán a nézeten rákattintva lehet.)
 
-<!-- TODO: csoportosítás -->
+### Csoportok
+
+Rétegeken belül tovább csoportosíthatjuk az elemeket. Jelöljük ki csoportosítani kívánt elemeket, majd a `Object > Group` menüponttal (++ctrl+g++) egyesítsük őket egy csoportba.
 
 
 ## Oldalak és oldalpárok

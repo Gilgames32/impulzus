@@ -11,7 +11,7 @@ színek, paletták, színterek, cmyk
 
 templatek, design libraryk
 
-oldalszám
+oldalszám, section
 
 csapatmunka, egységesítés, irányelvek, book
 
@@ -36,6 +36,8 @@ actual könyvnyomtatási szabályok/irányelvek/tördelés finomságai és kerü
 tartalomjegyzék rework, indent
 
 spellcheck ctrl i
+
+kép beszúráskor fit to idk, valami gyorsgomb méretezésre
 
 https://helpx.adobe.com/indesign/using/pages-spreads.html
 

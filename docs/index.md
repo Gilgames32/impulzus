@@ -1,17 +1,8 @@
 # Impulzus jegyzetek
 
-\[
-\LaTeX ~~ test
-\]
+TODO: köszöntő
 
-??? warning "Adomnition test"
-    honestly quite incredible
+> Nem igazán van jó magyar név mindenre sajnos, fogsz bőven találkozni a "bigyusz" és "fogantyú" kifejezésekkel.
 
+TODO: hozzájárulás
 
-```py
-def test():
-    return "Hello, World!"
-```
-
-- [ ] touch fluffy tail
-- [x] get rekt
