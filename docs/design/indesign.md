@@ -2,11 +2,15 @@
 
 <!-- TODO: tegyük hozzá hogy életemben nem tördeltem még teljes számot xdddddddddddd -->
 
+<!-- TODO: reorder -->
+
 ## Ez is csak egy Adobe slop...
 
 ### Projektek
 
-<!-- TODO -->
+<!-- TODO 
+nem ezzel kezdeném hanem 
+-->
 
 ![](img/home.png)
 
@@ -57,8 +61,12 @@ A `+` ikonnal tudunk hozzáadni új oldalakat.
 Láthatjuk, hogy 3 oldalunk és 2 oldalpárunk van.
 A furcsa elrendezés azért van, mert az első oldalunk - a borító - külön áll.
 
+<!-- 
+TODO: facing pages, document setup stb.
 TODO: parents
-TODO: master page, shift ctrl katt hogy lehessen editelni?
+- section markers
+TODO: master page, shift ctrl katt hogy lehessen editelni? 
+-->
 
 Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
 
@@ -66,14 +74,15 @@ Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
 
 Ami lelóg, vagy nincs rajta az oldalon, az nem fog megjelenni nyomtatásban, de a szerkesztéskor hasznos lehet, ha pl. még nem találod valaminek a helyét. Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni, akkor ++w++-vel tudsz a normal és a preview nézetek között váltani (vagy van neki gomb az eszköztár alján). 
 
+<!-- TODO: move this -->
 !!! note "Kapcsolódó menük"
     -  `File > Document Setup`: dokumentum bállítások, méretek, margók, előlap 
 
-TODO: bleed (kifutó), margins
+<!-- TODO: bleed (kifutó), margins -->
 
 ### Rétegek és keretek
 
-Ahogyan a legtöbb kreatív programban, az InDesign is rétegeket használ. 
+Ahogyan a legtöbb kreatív program, az InDesign is rétegeket használ. 
 
 ![](img/layers.png){height=360}
 
@@ -91,23 +100,92 @@ Fontos, hogy csak azokat az elemeket fogjuk látni a rétegeken, amik a kijelöl
 
 ### Gizmók
 
+<!-- TODO
 v, a 
 legfelső réteg elemeinek prio kijelölésnél, ctrl kattintással a mögötte lévőt is lehet
 
-módosítók: shift, alt, ctrl mit csinálnak
+módosítók: shift, alt, ctrl mit csinálnak 
+-->
 
 ## Szöveg
 
 <!-- TODO: szövegkeret beállítások, belső margók -->
 
-### Betűtípusok és stílusok
+Ahogy a legtöbb elem, a szövegek is keretekben/dobozokban vannak.
+Hozzonk létre egy szövegdobozt a `Type Tool`-lal (++t++), és húzzunk vele egy téglalapot a dokumentumon.
+
+??? tip "Lorem ipsum"
+    A [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) egy klasszikus helyőrző szöveg, amit gyakran használunk, ha nincs még kész szövegünk, vagy gyorsan kell valami a helyére.
+    Ez az InDesignba be van építve, a `Type > Fill with Placeholder Text`  menüponttal (jobb klikk menüből is elérhető) generál nekünk latin szöveget.
+
+Ha túl sok a szöveg egy szövegdobozban, akkor az InDesign panaszkodni fog, ezt mutatja a piros `+` jel a jobb alsó sarokban.
+
+![](img/text_overflow.png){height=360}
+
+Ha duplán kattintunk az alul középen lévő fogantyúra, akkor automatikusan átméretezi a keretet akkorára, hogy a szöveg elférjen.
+
+Ezt persze nem tehetjük meg mindig, van hogy a szöveget több szövegdobozon át szeretnénk elosztani. Ilyenkor a piros `+` jelre kattintva megfogja a szöveg kilógó részét, és áthúzhatjuk egy másik szövegdobozra, vagy létrehozhatunk egy újat ha üres helyre kattintunk vele.
+
+> Erről sajnos nem tudok jó képet mutatni, mert a képernyőképek nem mutatják az egeremet.
+
+Hasonló módon nem csak a szöveg végét, hanem a szöveg elejét is meg tudjuk fogni és átrakni, a bal felső sarokban felülről a második fogantyúval.
+
+<!-- TODO: cukorka: shift klikkel van auto text threading -->
+
+### Betűk
+
+!!! note "Tipográfia"
+    A [tipográfia](https://hu.wikipedia.org/wiki/Tipogr%C3%A1fia) egy külön tudomány, a betűk és betűtípusok készítése és kezelése egy külön művészet. 
+    Az ehhez tartozó jegyzetet [itt](typography.md) találod.
+
+Ezt szeirintem nem kell különösebben részleteznem, a közoktatás mindenkibe beleverte a Word használatát.
+
+A gyors beállításokat a felső sávon találjuk, a részleteket pedig a `Properties` panelen.
+
+![](img/text_character_bar.png)
+
+!!! note ""
+    A szélső két gombbal tudunk váltani a betűket és a bekezdéseket érintő beállítások között.
+
+Itt tudjuk továbbá beállítani a szöveg nyelvét is, ennek főként a szótagolásnál van jelentősége, de a helyesírás-ellenőrzés is figyelembe veszi.
 
 ### Bekezdések
 
+<!-- TODO: paragraph styles -->
+
+### Stílusok
+
+TODO
+
+#### Karakterstílusok
+
+A karakterstílusok segítéségével gyorsan és konzisztensen tudunk szöveget formázni. 
+
+!!! warning "Nem bekezdésstílus"
+    Nem összetévesztendő a bekezdésstílusokkal, amikről mindjárt szó lesz.
+    A karakterstílusok a szöveg egyes karaktereinek formázására szolgálnak, míg a bekezdésstílusok az egész bekezdésre vonatkoznak.
+
+Azért célszerű stílusokat használni, ahelyett hogy egyesével formáznánk a szövegeket, egy egységes beállítást ad, megelőzi az inkonzisztenciát, és ha a későbbiekben változtatni szeretnénk, akkor csak a stílust kell módosítanunk, nem kell egyesével. 
+
+!!! warning ""
+    A stílusok használata kritikus nagyobb dokumentumoknál, és a csapatmunkánál. A konzisztens megjelenés elengedhetetlen, és ehhez a stílusok használata nagyban hozzájárul.
+
+
+Vegyük elő a `Character Styles` panelt.
+
+![](img/text_character_styles_panel.png)
+
+<!-- TODO -->
+
 ### Elrendezés
 
-csíkok/sorhoz igazítás
+<!-- 
+TODO:
+csíkok/sorhoz igazítás (baseline grid, align to grid)
 hasábok, magók
+text frame options
+keep options
+-->
 
 ## Képek
 
@@ -115,7 +193,7 @@ Az InDesign külön kezeli a képeket és a képkereteket.
 A kép és a kerete külön mozgathatók.
 A kép azon része, ami a kereten kívülre esik, nem fog látszani.
 
-Képeket beszúrni drag&droppal vagy a `File > Place` menüből tudunk. 
+Képeket beszúrni drag&droppal vagy a `File > Place` ++ctrl+d++ menüből tudunk. 
 Ha minden jól meg, ez fogad minket:
 
 ![](img/image_gizmos.png){height=360}
@@ -235,7 +313,17 @@ templatek, design libraryk
 
 oldalszám
 
-csapatmunka, egységesítés, irányelvek
+csapatmunka, egységesítés, irányelvek, book
+
+szótagolás, nyelvek, autocorrect?
+
+preflight ellenőrzés
+
+hq előnézet
+
+shift w, presentation mode
+
+ctrl f grep
 
 exportálás
 
@@ -244,6 +332,10 @@ karakterszám újraszámolás képek alapján, esetleg ehhez egy googledocs temp
 megjelenítés minősége
 
 actual könyvnyomtatási szabályok/irányelvek/tördelés finomságai és kerülendő dolgok, szégyenfal
+
+tartalomjegyzék rework, indent
+
+spellcheck ctrl i
 
 bevett szokások impulzusnál
 - rétegek 

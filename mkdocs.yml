@@ -10,6 +10,7 @@ nav:
   - Design:
     - Alapok: design/basics.md
     - InDesign: design/indesign.md
+    - Tipográfia: design/typography.md
 
 theme:
   name: material
