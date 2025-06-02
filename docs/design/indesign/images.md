@@ -44,6 +44,10 @@ Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek
     
     ![](img/image_aspect_warning.png){width=360}
 
+A felső sávban különböző hasznos gombokat találunk, a tooltipek segítenek.
+
+![](img/image_control_panel.png)
+
 Nem túl fontos extrák:
 
 - A sárga bigyusszal tudunk lekerekített sarkokat csinálni.
@@ -80,21 +84,38 @@ A következő opciók érhetők el:
 
 A befoglaló téglalap esetén külön megadhatunk margót a keret körül. Ezt a képen a kereten kívüli extra doboz jelöli, és látjuk, ahogy a szöveg tartja az margót.
 
-![](img/image_wrap_box_margin.png)
+![](img/image_wrap_box_margin.png){height=360}
 
 ![](img/image_wrap_panel_shape.png){height=360}
 
 A `Wrap Around Object Shape` esetén a szöveg a képt tényleges tartalma körül fog fog futni, de ehhez tudnunk kell a kép tartalmának alakját. Ezt elsőre az InDesign megpróbálja legenerálni, az esetek többségében egész jó, főleg ha teszünk rá margót. 
 
-![](img/image_wrap_shape.png)
+![](img/image_wrap_shape.png){height=360}
 
 Ha mégse lenne jó, akkor a `Contour Options` alatt választhatunk másik módszert, amivel kitalálja a széleit. Az `Alpha Channel` opció egész jól szokott működni.
 
 Van olyan is persze, hogy pár kóbor pixel a képen elrontja vagy csak buta az algoritmus, ilyenkor a `Pen Tool` segítségével kézzel is szerkeszthetjük a körvonalat. 
 
-<!-- TODO: gányolás extra formákkal admonition -> csoportosítás -->
-<!-- TODO: szétcsúszó szöveg, egy szavas sorok -->
-<!-- TODO: ignore text wrap pl oldalszámhoz -->
+!!! experiment "Ha nagyon nem akarunk a `Pen Tool`-lal bíbelődni..."
+    Egy elég gányolós megoldás, de működhet: beszúrunk pár láthatatlan alakzatot, és beállítjuk a körbefutást.
+    **Ezt csak indokolt eseben használjuk, és mindenképp csináljunk belőlük és a képből egy csoportot (++ctrl+g++)!**
+
+!!! danger "S z é l e s \_ s z a v a k"
+    Elő tud fordulni körbefuttatott, sorkizárt szövegnél, hogy egyetlen szó kerülne egy sorba, és emiatt széthúzza a szöveget (pl. enis).
+
+    ![](img/image_wide_justified.png){height=360}
+
+    **Ilyet semmilyen körülmények között ne hagyjunk benne**, próbáljunk meg valamit kezdeni vele:
+
+    - Játszadozunk a kép helyével, méretével, margójával. Olykor kis változtatások is drasztikus hatással vannak a szövegre.
+    - `No Break` karakterstílust használunk (ha nincs ilyen, akkor létrehozzuk, `Basic Character Formats` alatt `No Break`-et nyomjuk be).
+    - Egyéb gányolós megoldások, de ezeket kerüljük.
+
+### Ignore Text Wrap
+
+Nem mindig akarjuk persze, hogy a szöveg körbefussa a képet, de a körbefuttatás kikapcsolása nem mindig opció.
+Ilyen esetekre van az `Ignore Text Wrap` beállítás a `Text Frame Options > General` (++ctrl+b+++) ablakban találunk.
+Ez különösen jó például oldalszámoknál, ha rálóg egy képre, és azt a képet futja körbe a szövegtörzs, de egyéb művészien elhelyezett szövegeknél is hasznos lehet.
 
 ## Linkek
 

@@ -27,7 +27,7 @@ Ezek elsőre lehet, hogy lebegő ablakokban jelennek meg, ha szeretnénk, a legt
 
 ### Nagy vonalakban
 
-Legfelül a menük, alatta az eszköz specifikus vezérlő panel, bal oldalt az eszközök, középen a dokumentum, jobb oldalt különféle panelek találhatók.
+Legfelül a menük, alatta az eszköz specifikus vezérlő panel (felső sáv), bal oldalt az eszközök, középen a dokumentum, jobb oldalt különféle panelek találhatók.
 
 ## Alap billentyűkombinációk
 
@@ -107,26 +107,98 @@ A `+` ikonnal tudunk hozzáadni új oldalakat.
 Láthatjuk, hogy 3 oldalunk és 2 oldalpárunk van.
 A furcsa elrendezés azért van, mert az első oldalunk - a borító - külön áll.
 
-<!-- 
-TODO: facing pages, document setup stb.
-TODO: parents
-- section markers
-TODO: master page, shift ctrl katt hogy lehessen editelni? 
--->
-
 Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
 
 ![](img/pasteboard.png)
 
-Ami lelóg, vagy nincs rajta az oldalon, az nem fog megjelenni nyomtatásban, de a szerkesztéskor hasznos lehet, ha pl. még nem találod valaminek a helyét. Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni, akkor ++w++-vel tudsz a normal és a preview nézetek között váltani (vagy van neki gomb az eszköztár alján). 
+Ami lelóg, vagy nincs rajta az oldalon, az nem fog megjelenni nyomtatásban, de a szerkesztéskor hasznos lehet, ha pl. még nem találod valaminek a helyét. 
 
-<!-- TODO: move this -->
-!!! note "Kapcsolódó menük"
-    -  `File > Document Setup`: dokumentum bállítások, méretek, margók, előlap 
+!!! tip "Előnézetek"
+    Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni mindenféle gizmó és segédvonal nélkül, akkor ++w++-vel tudsz a normál és az előnézet között váltani (vagy van neki gomb az eszköztár alján). Ha mégtovább szeretnéd vinni, akkor létezik a `Presentation Mode` (++shift+w++).
+    A képek és grafkikák nem mindig jelennek meg a legjobb minőségükben, ez azért van, hogy ne robbanjon fel a géped nagyobb dokumentumoknál. A `View > Display Performance` menüpontban tudod beállítani a megjelenési minőséget. Ne felejtsd el visszaállítani :smiley:.
 
-<!-- TODO: bleed (kifutó), margins -->
+### Mester oldalak
+
+A mester oldalak segítségével tudunk oldal mintákat létrehozni. 
+Egy picit hasonlít a PowerPoint mintadiákhoz, elég egyszer elkészítenünk egy oldal elrendezését, és a későbbiekben elég lesz a mintát frissíteni ahhoz, hogy az összes mintát követő oldal egységesen változzon.
+
+Kattintsunk a `Pages` tabon duplán az `A-Parent`-re, ekkor fogjuk látni és tudjuk szerkeszteni a mester oldalunkat. 
+A bal és jobb oldalak megjelenését értelem szerűen külön tudjuk kezelni, ez a legtöbb esetben csak tükrözést jelent az elrendezésben, de a lehetőségek tárházta végtelen.
+
+![](img/a_parent_1.png){height=360}
+
+Szemléltetésképp felvettem két fekete négyzetet. 
+Menjünk vissza a tényleges oldalunkra (dupla kattintás az első oldalra).
+Ha minden igaz az oldalunk követi az `A-Parent`-et, így a két fekete négyzetnek itt is meg kell jelennie.
+Ha mégsem követné, vagy meg akarjuk változtatni, akkor a megfelelő `Parent` ráhúzásával be tudjuk állítani.
+
+![](img/parent_none1.png){height=180} ![](img/parent_a1.png){height=180}
+
+Az ábrákon láthatjuk, hogy miután rákerült a minta, megjelenik egy kis ikon a sarokban, ami jelzi, hogy melyik mester oldalt követi. A kis ikon nagyon jól kitakarja, de látszik alatta a fekete négyzet is, amit ráraktam.
+
+!!! example "Demonstráció"
+    A tényleges oldalon felvettem egy sárga négyzetet.
+
+    ![](img/a_parent_2.png){height=200}
+
+    Ezután visszamentem a mester oldalra, átszíneztem a fekete négyzeteket kékre. Vegyük észre, hogy a sárga négyzet nincs itt.
+
+    ![](img/a_parent_3.png){height=200}
+
+    Visszamentem az első oldalra. A sárga négyzet érintetlenül marad, de a fekete négyzet bekékült, hiszen az a mester oldalról származott.
+
+    ![](img/a_parent_4.png){height=200}
+
+Ha valamit módósítani szeretnénk az oldalunkon, ami egy mester oldal részét képezi, elsőre nem fog menni.
+Alapból a mester oldal elemei védettek, a ++ctrl+shift++ kattintásal tudjuk feloldani őket.
+
+!!! danger "A feloldás mellékhatásai"
+    Ha feloldunk egy elemet a mester oldalról, az később nem fog frissülni, ha szerkesztjük a mester oldalt, ezért ezt csak indokolt esetben használjuk. Ha minden oldalon oldalon feloldunk egy elemet a mestertől, akkor esélyes, hogy valamit rosszul csinálunk.
+
+!!! question "Mit rakhatok egy mester oldalra?"
+    Valójában bármit, a jobb kérdés az lenne, hogy mit érdemes. 
+    
+    - **Makrókat**. Ilyen például az oldalszám vagy a fejezetcím. Ezeket a `Type > Text Variables > Insert Variable` és a `Type > Insert Special Character` menüpontokból tudjuk beszúrni.
+    - **Képkereteket**. Elég csak a keretet létrehozni, a tartalmát pedig az oldalon tudjuk majd beállítani feloldás nélkül.
+    - Szöveget, fenntartásokkal. Amit lehet, igyekezzünk makróval. A szövegkeret tartalmának szerkesztéséhez fel kell oldani azt az elemet, elvész a kapcsolat a mester oldallal, viszont a szövegstílust megtartja. Szövegstílusokról később lesz szó.
+
+Új mester oldalthoz jobb klikkeljünk egy meglévőre, és válasszuk a `New Parent` menüpontot.
+
+![](img/new_parent.png){height=360}
+
+Itt beállíthatunk neki egy prefixet és egy nevet, sőt, akár egy meglévő mester oldalból is örökölhetünk elemeket.
+Ilyenkor az ős elemeit átveszi, és újabb elemeket vehetünk fel rá. Ha az őst szerkesztjük, mind a belőle származó mester oldalak, mind a mintát használó oldalak frissülni fognak.
+
+??? question "Mire jó ez?"
+    Tegyük fel, hogy van egy oldalszámot tartalmazó mester oldalunk, ebből származtathatunk pl. egy szöveges oldalt, egy képes oldalt stb. Ha későb szeretnénk változtatni az oldalszám kinézetén, akkor elég lesz csak az ős mester oldalt szerkeszteni, és mindenhol frissülni fog.
+
+### Fejezetek
+
+Mint ahogy azt említettem, tudunk makrókat beszúrni a mester oldalakra, például fejezetcímeket.
+
+A mester oldalunkon szúrjuk be a fejezetcímünket a `Type > Insert Special Character > Markers > Section Marker` menüponttal.
+A beszúrt szöveget ízlés szerint formázhatjuk, a tényleges fejezetcímünk is követni fogja majd.
+
+![](img/section_marker_text.png){height=360}
+
+Elvileg még nem kéne látnunk semmit, hiszen még nem állítottuk be a fejezeteket és azok címeit. Ezeket a `Pages` oldalon a jobb klikk `Numbering & Section Options` ablakban találjuk.
+
+![](img/section_options.png){height=360} ![](img/section_prefix_page.png){height=180} ![](img/section_working.png){height=360}
+
+## Dokumentum beállítások
+
+A `File > Document Setup` (++ctrl+alt+p++) ablakban érjük el a dokumentumunk beállításait.
+
+![](img/documentsettings.png){height=360}
+
+Itt tudjuk beállítani a dokumentum kezdőoldalát, terjedelmét, a méretet és a margókat.
+A `Facing Pages` állítja, hogy oldalpárokat használunk-e, vagy sem. 
+Ha lenyitjuk, előjönnek a `Bleed` és a `Slug` beállítások is.
+
+!!! danger "Kifutó"
+    A kifutó (`Bleed`) a papír szélén túlnyúló rész. A nyomdák miatt van rá szükség, nem mindig tudják pontosan vágni a papírt, így a mérete is nyomdafüggő. Ha pl. egy képet a lap szélére teszünk, de nem fut ki a kifutóig, akkor vágásnál lehet, hogy egy fehér csíkot is kapunk ajándékba mellé. Ez persze nem néz ki szépen, így mindeképpen húzzunk ki minden lap szélét érintő képet és grafikát a kifutó széléig. Arra is ügyeljünk, hogy lényegi része a képnek ne kerüljön a kifutóba, ha tökéletesen vágnák is nézzen ki jól. Az előnézet (++w++) sokat tud segíteni ebben is, nem mutatja a kifutó részt.
 
 
+## Színek
 
-
-
+<!-- TODO -->

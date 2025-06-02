@@ -15,7 +15,8 @@ nav:
       - Képek: design/indesign/images.md
       - Irányelvek: design/indesign/guidelines.md
       - Exportálás: design/indesign/export.md
-    - Alapok: design/design.md
+      - Extrák: design/indesign/extras.md
+    - Design alapok: design/design.md
     - Tipográfia: design/typography.md
 
 theme:
