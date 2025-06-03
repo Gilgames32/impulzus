@@ -94,6 +94,15 @@ Fontos, hogy csak azokat az elemeket fogjuk látni a rétegeken, amik a kijelöl
 
 Rétegeken belül tovább csoportosíthatjuk az elemeket. Jelöljük ki csoportosítani kívánt elemeket, majd a `Object > Group` menüponttal (++ctrl+g++) egyesítsük őket egy csoportba.
 
+### Lezárás
+
+Rétegeket, csoportokat és objektumokat is le tudunk zárni.
+Ennek hatására nem tudjuk kijelölni vagy módosítani őket, amíg fel nem oldjuk őket.
+Háttereket, fix dolgokat érdemes lezárni, nehogy véletlenül őket mozdítsuk el vagy jelöljük ki.
+
+Lezárni a szem melletti rublikába kattintva tudunk.
+
+![](img/layer_lock.png){width=360}
 
 ## Oldalak és oldalpárok
 
@@ -201,4 +210,42 @@ Ha lenyitjuk, előjönnek a `Bleed` és a `Slug` beállítások is.
 
 ## Színek
 
-<!-- TODO -->
+A legtöbb objektum színe állítható, pl. a kijelölés után a felső sávból is.
+A színeket a `Colours` panelen érjük el. 
+Ez elsőre valószínűleg CMYK színmódban lesz, de a hamburger menüben át tudjuk állítani, a legkönnyebben értelmezhető talán a HSB.
+
+![](img/colour_panel_hamburger.png){width=360}
+
+!!! danger "A színskálán kívül"
+    A nyomtatók CMYK-ban nyomtatnak, ha nem ebben a színtérben választunk színt, megvan az esélye, hogy nem kinyomtatható színt keverünk. Szerencsére az InDesign figyelmeztet, fel is ajánlja a hozzá legközelebb eső színt, ami még belefér, erre rákattintva tudjuk kiválasztani.
+
+    ![](img/color_gamut_warning.png){width=360}
+
+### Színminták
+
+Definiálhatunk előre megadott színeket, ún. színmintákat. Ha ezekkel színezünk, akkor később egységesen tudjuk módosítani az adott szín összes előfordulását a dokumentumban. Segítségükkel könnyen tudunk kezelni színpalettákat, és nagyban hozzájárulnak a dokumentumunk egységes kinézetéhez.
+
+A színmintákat a `Swatches` panelen érhetjük el.
+
+![](img/swatches_panel.png){height=360}
+
+A felső 4 szín alapbeállítás, a többit ajándékba kaptuk... nem túl szépek, nyugodtan törölhetjük őket.
+
+- `None`: teljesen átlátszó, üres szín, nem fehér. Hasznos pl. csak keretet szeretnénk egy alakzatnak, de a belsejét nem akarjuk kitölteni.
+- `[Black]`: nem meglepő módon ez csak fekete.
+
+!!! warning "`[Paper]`"
+    Ezt az egy alapbeállítást tudjuk állítani, megváltoztatja **minden** papír színét. Nem ajánlott állítgatni, hacsak nem **fixen minden** oldalunk színes lesz. Ha csak egy-egy oldalt szeretnénk átszínezni, akkor inkább tegyünk be egy nagy téglalapot a háttérbe, és zároljuk.
+
+!!! danger "`[Registration]`"
+    Ezt a színt **SOHA NE HASZNÁLD**. Ez egy speciális szín, minden tintából a maximumot használja, nem úgy, mint a fekete. Szerkesztés közben cselesen ugyan olyan feketének fog látszani, de ez nyomtatáskor problémát okozhat.
+
+!!! warning "Színminták használata"
+    Nagyobb projektnél sose használj egyedi kikevert színeket! Mindenképp legyen neki egy színminta, és mindenképpen adj neki egy beszédes nevet! Piros pont, ha csinálsz nekik csoportokat is.
+
+#### Árnyalatok
+
+Nem gyakran használjuk.
+Ha kijelölünk egy színt, a hamburger menüben tudunk neki új árnyalatot létrehozni a `New Tint Swatch` menüponttal, majd be tudjuk állítani a kívánt árnyalatot. 
+Azért hasznos, mert ha változik az eredeti szín, akkor az árnyalat is vele együtt fog változni.
+Érdemes mappákba rendezni őket, segít kiigazodni, hogy melyik árnyalat melyik színhez tartozik.

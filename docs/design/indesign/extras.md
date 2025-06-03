@@ -7,4 +7,5 @@
 - templatek, design libraryk készítése
 - ctrl f grep
 - tartalomjegyzék 
+- swatches, psd, ai
 -->
