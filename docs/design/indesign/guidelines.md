@@ -1,21 +1,72 @@
 # Tördelés az Impulzusnál
 
-<!-- 
-- csapatmunka, egységesítés, irányelvek, book
-- réteghasználat: előtér, háttér, munkaterület
-- template használat
-- kerülendő dolgok, szégyenfal
-- kép körbefutás 3mm
-- kitekerem a nyakát aki háttérnek képet rak be xd
-- drive és meghajtó hogyan
-- lock
-- színeket hogyan használd - swatch
-- karakter és bekezdésstílusok refactor
-    - kiinduló doksi?
-    - interjú kérdés tesz maga elé üres sort (elém???)
-    - aláírás cikk után?
-    - aláírás alá képekhez
-        - spotot nem szoktuk megjelölni, ők ott vannak az elején
-- mappa szervezés, együttműködés a többiekkel (esetleg kérdezzem meg)
-- grafikákat svg-ben pls
--->
+!!! experiment "Átdolgozás alatt"
+    A tördelés régi folyamata, avagy minden egy nagy dokumentumban, nem kimondottan bizonyosult hatékonynak az együttes munkát illetően, emiatt szerettem volna újítani ezen.
+
+    Erre szeretném bevezetni a könyv (`Book`) használatát, és új kiinduló fájlokat.     
+
+## Mappaszervezés
+
+!!! danger ""
+    TODO
+
+### Lock fájlok
+
+![](img/lockfile.png)
+
+Ha ehhez hasonló lock fájlokat látsz, akkor azt a dokumentumot éppen valaki szerkeszti, amíg be nem zárja, addig más nem fér hozzá. Fontos, hogy ne hagyjuk nyitva, ha már nem dolkozunk rajta, mert addig nem tud más dolgozni vele.
+
+## Kiinduló fájlok és könyvtárak
+
+!!! danger ""
+    TODO
+
+### Rétegek
+
+A kiinduló fájlok valószínűleg tartalmazni fognak rétegeket:
+
+- Előtér: ami minden esetben legfelül kell legyen
+- Munkaterület: a legtöbb szöveg és alapesetben minden, ami nem máshova megy
+- Grafikák: képek, illusztrációk, stb.
+- Háttér: amit mindenképpen hátra szeretnél tenni, érdemes lezárni, ami fix
+
+## Stílusok és egységesség
+
+Amihez csak tudunk használjunk stílusokat, mintákat, könyvtári elemeket stb.
+
+- egyedileg kever színek helyett használjunk színmintákat és színárnyalatokat
+- szöveghez használjunk bekezdésstílusokat, csak indokolt esetben formázzuk egyedileg
+- ha nem találod a stílusokat vagy a palettát, ellenőrizd, hogy szinkronizálva vagy-e a könyvvel, és hogy jó kiindulófájlból dolgozol
+
+### Impulzus könyvtár
+
+> avagy Design Library
+
+Ez egy `.indl` fájl, ami tartalmaz pár előre definiált elrendezést.
+Nyissuk meg és tegyük ki valamelyik panelre.
+Válasszuk ki a kívánt elemet és húzzuk be a dokumentumba.
+Ügyeljünk, hogy illeszkedjen a margókra és a dokumentum széleihez!
+
+## Képek
+
+- körbefutás
+    - szögletes képekhez kb. 3mm
+    - szabad formáknál akár 5mm is, ahogy jól néz ki
+- grafikákat **vektoros** formátumban (svg), ha létezik ilyen változat
+- mellőzzük a díszes képkereteket
+- a lekerekítés legyen egységes, vagy sehol, vagy mindenhol, de akkor ugyan annyi (jelenleg nem használunk ilyet)
+- fotók forrása legyen megjelölve
+    - a SPOT-ot nem szoktuk egyesével, őket külön megemlítjük az elején
+- szabad formájú körbefuttatott képekhez külön formákat csak indokolt esetben, különben `Pen Tool` (a `Pen Tool`ról (itt)[])
+
+!!! warning "Kép a szöveg mögött"
+    Légyszi **ne**. A szöveg mögötti képek nagyon zavaróak tudnak lenni, és nagyon ritkán néz ki jól. Ha teljes oldalas háttér van, akkor is ügyeljünk rá, hogy egyszerű, alacsony kontrasztú rész legyen csak a kép alatt, maradjon könnyen olvasható a szöveg.
+
+## Egyéb kerülendő dolgok
+
+- körbefuttatás miatt széthúzott egy szavas sorok
+- törekedjünk a margók betartására, de az 5mm-es margókon kívül **soha** ne menjünk
+- kép túl közel a szöveghez, vagy kép a szöveg mögött: állítsunk be margókat és helyes körbefutást
+- túl sok kép, vagy túl sok szöveg egy oldalon: találjuk meg az egyensúlyt
+- egyetlen szótag egy sorban, vagy aránytalanul rövid sorok
+- rövid szavak automatikus szótagolása

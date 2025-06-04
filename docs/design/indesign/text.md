@@ -88,6 +88,7 @@ Nekem itt most csak az alapbeállítás látható.
 Ha ki van jelölve egy bekezdés, akkor a formai beállításait kimenthetjük stílusba a `+` gombbal.
 
 Dupla kattintással jön elő az ablak, ahol részletesen beállíthatjuk a stílust, ez ismét egy akkora falat, hogy nem fejteném ki. 
+Azt viszont megemlíteném, hogy itt is van lehetőség öröklésre, a mester oldalakhoz hasonlóan. 
 
 ### Karakterstílusok
 

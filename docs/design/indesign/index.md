@@ -1,24 +1,7 @@
 # InDesign jegyzet
 
-<!-- TODO bemutatkozás és mentegezőzés xd -->
+Az Adobe InDesign egy professzionális kiadványszerkesztő program, mi az Impulzusnál ezt használjuk a tördeléshez.
+Eddig nem létezett sajnos megfelelő segédlet a tördelőinknek, és a program teljes potenciálját sem használtuk ki, ezért született meg ez a jegyzet.
 
-> Nem igazán van jó magyar név mindenre sajnos, fogsz bőven találkozni a "bigyusz" és "fogantyú" kifejezésekkel.
-
-<!-- 
-TODO
-- actual könyvnyomtatási szabályok/irányelvek/tördelés finomságai konvenciók
-    - ne szótagoljunk rövid szavakat
-
-- karakterszám újraszámolás képek alapján, esetleg ehhez egy googledocs template?
-
-- layer lock
-
-- tartalomjegyzék rework, indent
- 
-- kép beszúráskor fit to idk, valami gyorsgomb méretezésre ctrl alt c/e
-
-- book
-
-- font
-
--->
+Nem igazán van jó magyar név mindenre (vagy csak nem tudok róla), fogsz bőven találkozni a "bigyusz" és "fogantyú" kifejezésekkel.
+Remélem azért érthető lesz, és segít megérteni a program használatát, de ha már tördeltél is nagyon valószínű, hogy fog tudni újat mutatni.

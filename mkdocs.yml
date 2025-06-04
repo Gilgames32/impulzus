@@ -18,6 +18,7 @@ nav:
       - Extrák: design/indesign/extras.md
     - Design alapok: design/design.md
     - Tipográfia: design/typography.md
+  - Markdown: markdown.md
 
 theme:
   name: material
@@ -37,6 +38,7 @@ theme:
         name: Switch to light mode
   icon:
     logo: material/information-box
+  favicon: docs/impi_icon_kek.png
 
   features:
     - navigation.instant
@@ -95,9 +97,11 @@ markdown_extensions:
   # worth checking out: macros, snippets
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 extra_css:
   - stylesheets/custom.css
   - stylesheets/code.css
+  - https://unpkg.com/katex@0/dist/katex.min.css

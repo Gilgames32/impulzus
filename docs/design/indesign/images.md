@@ -9,10 +9,9 @@ Ha minden jól meg, ez fogad minket:
 
 ![](img/image_gizmos.png){height=360}
 
-??? tip "A beszúrt képekről"
-    Ha nagyobb képeket szúrunk be, akkor esélyes, hogy óriási méretűek lesznek, és emiatt nem látszódnak. Ilyenkor elég nagy macera tud lenni átméretezni őket, erre megoldás lehet kézzel beállítani a méretüket a felső sávban. Ügyeljünk a képarányra (lánc ikon)!
-
-    ![](img/image_import_size.png)
+??? tip ""
+    Képek beszúrásakor, ha csak kattintunk, akkor eredeti méretben szúrja be a képeket, ha viszont húzunk vele egy téglalapot, akkor megspórolhatjuk magunknak a babrálást a gigantikus képekkel.
+    (Ha nem látszik a kattintással beszúrt kép, az is lehet, hogy csak túl nagy.)
 
 
 Az méretezés és a mozgatás irányítása a legkevésbé sem magától éretődő, és nekem is rengeteg fejfájás volt eleinte.
@@ -39,12 +38,15 @@ Magyarázat:
 
 Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek, ugyan úgy mint bármi más kijelölésnél.
 
+!!! tip ""
+    ++ctrl+shift++: kép és keret méretezése együtt, tartva a képarányt.
+
 !!! warning "Képarány"
     A ++shift++ különösen fontos, különben elcsúszhat a képarány.
     
     ![](img/image_aspect_warning.png){width=360}
 
-A felső sávban különböző hasznos gombokat találunk, a tooltipek segítenek.
+A felső sávban különböző hasznos gombokat találunk, a tooltipek segítenek. Az `Auto-Fit` különösen hasznos lehet, automatikusan a kerethez igazítja a képet.
 
 ![](img/image_control_panel.png)
 
@@ -55,7 +57,7 @@ Nem túl fontos extrák:
 - A láncra ++alt++ kattintva látjuk a linkeket.
 
 !!! tip "Szabad formájú képkeretek"
-    InDesignban is használhatunk szabad formájú képkereteket, nem csak téglalapokat. Ezt a `Pen Tool`lal tudjuk megtenni.
+    InDesignban is használhatunk szabad formájú képkereteket, nem csak téglalapokat. Ezt a `Pen Tool`lal tudjuk megtenni. A `Pen Tool`ról [itt](extras.md#pen-tool) olvashatsz többet.
     Ha segít, úgy is gondolhatsz a keretre, mint egy maszkra. 
 
 !!! question "Miért jó ez?"
@@ -94,7 +96,7 @@ A `Wrap Around Object Shape` esetén a szöveg a képt tényleges tartalma kör�
 
 Ha mégse lenne jó, akkor a `Contour Options` alatt választhatunk másik módszert, amivel kitalálja a széleit. Az `Alpha Channel` opció egész jól szokott működni.
 
-Van olyan is persze, hogy pár kóbor pixel a képen elrontja vagy csak buta az algoritmus, ilyenkor a `Pen Tool` segítségével kézzel is szerkeszthetjük a körvonalat. 
+Van olyan is persze, hogy pár kóbor pixel a képen elrontja vagy csak buta az algoritmus, ilyenkor a `Pen Tool` segítségével kézzel is szerkeszthetjük a körvonalat. A `Pen Tool`ról [itt](extras.md#pen-tool) olvashatsz többet.
 
 !!! experiment "Ha nagyon nem akarunk a `Pen Tool`-lal bíbelődni..."
     Egy elég gányolós megoldás, de működhet: beszúrunk pár láthatatlan alakzatot, és beállítjuk a körbefutást.

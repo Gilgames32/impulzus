@@ -249,3 +249,25 @@ Nem gyakran használjuk.
 Ha kijelölünk egy színt, a hamburger menüben tudunk neki új árnyalatot létrehozni a `New Tint Swatch` menüponttal, majd be tudjuk állítani a kívánt árnyalatot. 
 Azért hasznos, mert ha változik az eredeti szín, akkor az árnyalat is vele együtt fog változni.
 Érdemes mappákba rendezni őket, segít kiigazodni, hogy melyik árnyalat melyik színhez tartozik.
+
+## Könyv
+
+Könyvek segítségével könnyedén tudunk több kisebb dokumentumot egyesíteni, és egyben kezelni őket.
+Ez hasznos lehet, ha nagyobb projekten dolgozunk, a többi kisebb InDesign projekt miatt tudunk egyszerre dolgozni különböző részeken, de később egybe tudjuk őket fogni.
+
+A `File > New > Book` menüponttal tudunk új könyvet létrehozni vagy az `Open` alatt betölteni egy meglévőt.
+Ekkor előugrik egy kis ablak, ami a könyvünket reprezentálja.
+
+![](img/book_panel.png)
+
+Itt a `+` gombbal tudunk hozzáadni új dokumentumokat, vagy a `-` gombbal törölni őket.
+Az `Untitled-2` sorában az legelső kis ikonka jelzi a stílus forrást.
+Minden dokumentum az ő stílusait fogja használni.
+Ezt áttehetjük másik dokumentumra, ha a megfelelő dokumentum rublikájába kattintunk.
+Az oda-vissza nyíllal tudjuk szinkronizálni a stílusainkat a kijelölt dokumentum és a stílus forrás között.
+
+!!! tip "Oldalszámok"
+    Ha nem állítunk be oldalszámokat, magától fogja megpróbálni kitalálni. Nem feltétlenül baj, mert sorba tudjuk őket rakni, de egy szebb megoldás, ha minden dokumentumunkban be van állítva, hogy honnan kezdődik és meddig tart.
+
+!!! warning "Nyomtató gomb"
+    **NE** a nyomtató gombbal nyomtasd ki a könyvet, lényegesen kevésbé részletes. Helyette a hamburger menüből elérhető `Export Book to PDF...`-et használd.

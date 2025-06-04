@@ -1,5 +1,5 @@
 # Design és grafika alapok
 
-vektor, raszter, színelmélet, tipográfia, kompozíció, kontraszt
+vektor, raszter, színelmélet, kompozíció, kontraszt
 
 https://principles.design/
