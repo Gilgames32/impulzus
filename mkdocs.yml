@@ -38,7 +38,7 @@ theme:
         name: Switch to light mode
   icon:
     logo: material/information-box
-  favicon: docs/impi_icon_kek.png
+  favicon: impi_icon_kek.png
 
   features:
     - navigation.instant

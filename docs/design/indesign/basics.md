@@ -15,7 +15,7 @@ Részletesebb beállíátokat a `More Presets` alatt találunk. Nekünk egyelőr
 ![](img/essentials.png)
 
 Ha először nyitjuk meg az InDesignt, akkor ez a munkaterület fogad minket. Mielőtt elmondanék bármit is róla, állítsuk át egy kicsit részletesebbre.
-A fejlécen az Essentials feliratra kattintva válasszuk ki az Advanced nézetet.
+A fejlécen az `Essentials` feliratra kattintva válasszuk ki az `Advanced` nézetet.
 
 !!! note "A workspacekről"
     A többi Adobe programhoz hasonlóan itt is vannak előre definiált munkaterületek, és itt is hasonló módon személyre tudjuk szabni az elrendezést és az előbeállításokat. Ha elrontanánk valamit, akkor ugyan ebben a legördülő menüben tudjuk visszaállítani az alapértelmezésre. A workspacek panelekből (avagy tab groupokból) és tabokból állnak, ezek elrendezését és viselkedését egyesével tudjuk állítani. Javaslom, hogy játszadozz el vele egy kicsit (ha már van egy megszokott elrendezésed, akkor esetleg mentsd el előtte xd), a későbiekben nagyon hasznos lesz. 
@@ -23,7 +23,8 @@ A fejlécen az Essentials feliratra kattintva válasszuk ki az Advanced nézetet
 Az Advanced nézet sem tökéletes, hiányzik pár alapvető dolok, ezeket a `Window` menüből tudjuk elővenni. 
 Ezek elsőre lehet, hogy lebegő ablakokban jelennek meg, ha szeretnénk, a legtöbb dolgok hozzá tudjuk adni (csak odahúzod) a paneljeinkhez, hogy legközelebb kéznél legyenek.
 
-> Az útmutató során esélyes, hogy olyan paneleket fogok használni, amik nem/másképp szerepelnek alapból. Ne ijedj meg, minden elérhető a `Window` menüben, és nem baj ha más az elrendezésed, ez ízlés kérdése.
+!!! question ""
+    Az útmutató során esélyes, hogy olyan paneleket fogok használni, amik nem/másképp szerepelnek alapból. Ne ijedj meg, minden elérhető a `Window` menüben, és nem baj ha más az elrendezésed, ez ízlés kérdése.
 
 ### Nagy vonalakban
 
@@ -33,14 +34,14 @@ Legfelül a menük, alatta az eszköz specifikus vezérlő panel (felső sáv), 
 
 Az Adobe programok egyik legnagyobb átka, hogy eltér minden eddig megszokott program legalapvetőbb gyorsbillentyűitől.
 
-- ++space+right-button++: ha nyomva tartod tudod vele mozgazni a dokumentumot
+- ++space++ + bal egérgomb: ha nyomva tartod tudod vele mozgazni a dokumentumot
 - ++alt++ + görgő: nagyítás és kicsinyítés
 - görgő: függőleges tekerés
 - ++ctrl++ + görgő: vízszintes tekerés
 - ++ctrl+z++: visszavonás
 - ++ctrl+shift+z++: újra
 
-Nem kell minden gyorsbillentyűt tudni kívülről, később a nagy részét amúgy is meg fogod tanulni, de fel fogom majd tűntetni őket, és ha valamilyen eszköz főlé viszed az egeredet is mutatja. Ha nagyon akarod, az `Edit > Keyboard Shortcuts` menüben lehet állítani.
+Nem kell minden gyorsbillentyűt tudni kívülről, később a nagy részét amúgy is meg fogod tanulni, de fel fogom majd tüntetni őket, és ha valamilyen eszköz fölé viszed az egeredet is mutatni szokta, menüpontokban írja. Ha nagyon akarod, az `Edit > Keyboard Shortcuts` menüben lehet állítani.
 
 
 # Alap koncepciók
@@ -54,13 +55,14 @@ Szúrjunk be egy téglalapot a `Rectangle Tool`-lal (++m++).
 ![](img/objects_rectangle.png){height=360}
 
 Az objektumainkat a `Selection Tool`-lal (++v++) tudjuk kijelölni, mozgatni, átméretezni, forgatni stb.
-Kijelöléshez kattintsunk az objektumra, húzással vagy a ++ctrl++ nyomvatartásával kijelölhetünk akár többet is.
+Kijelöléshez kattintsunk az objektumra. 
+Húzással vagy a ++ctrl++ nyomvatartásával kijelölhetünk akár többet is egyszerre.
 (Mivel üres a téglalapunk belseje, ezért ezt a kereténél vagy a középső bigyusznál fogva tudjuk mozgatni.)
 
 !!! tip "Kijelölés"
-    Átlapolódás esetén a legfelső réteg elemeit fogja kiválasztani, de ha ++ctrl++-t nyomvatartva kattintunk, akkor a mögötte lévő elemet fogja kiválasztani, ha még egyszerűen kattintunk, akkor az azalatt lévőt, és így tovább.
+    Átlapolódás esetén a legfelső réteg elemeit fogja kiválasztani, de ha ++ctrl++-t nyomvatartva kattintunk, akkor a mögötte lévő elemet fogja kiválasztani, ha még egyszer kattintunk, akkor az azalatt lévőt, és így tovább.
 
-A `Direct Selection Tool`-lal (++a++) tudjuk az objektumunk belső pontjait mozgazni. 
+A `Direct Selection Tool`-lal (++a++) tudjuk az objektumunk egyes pontjait mozgazni. 
 Például a téglalapunk esetén kiválaszthatunk pontokat és szabadon mozgathatjuk őket.
 
 ![](img/objects_dst_1.png){height=360}
@@ -107,13 +109,12 @@ Lezárni a szem melletti rublikába kattintva tudunk.
 ## Oldalak és oldalpárok
 
 Egy InDesign dokumentum oldalakból áll. 
-Mi általában kötött/tűzött dokumentumokat készítünk, ezért többnyire oldalpárokban gondolkodunk, mint pl. egy nyitott könyvnél.
+Mi általában kötött/tűzött dokumentumokat készítünk, ezért többnyire oldalpárokban gondolkodunk.
 Az ezzel kapcsolatos dolgok a `Pages` tabon érhetők el.
 
 ![](img/pages_and_spreads.png){height=360}
 
 A `+` ikonnal tudunk hozzáadni új oldalakat.
-Láthatjuk, hogy 3 oldalunk és 2 oldalpárunk van.
 A furcsa elrendezés azért van, mert az első oldalunk - a borító - külön áll.
 
 Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
@@ -123,16 +124,16 @@ Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
 Ami lelóg, vagy nincs rajta az oldalon, az nem fog megjelenni nyomtatásban, de a szerkesztéskor hasznos lehet, ha pl. még nem találod valaminek a helyét. 
 
 !!! tip "Előnézetek"
-    Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni mindenféle gizmó és segédvonal nélkül, akkor ++w++-vel tudsz a normál és az előnézet között váltani (vagy van neki gomb az eszköztár alján). Ha mégtovább szeretnéd vinni, akkor létezik a `Presentation Mode` (++shift+w++).
-    A képek és grafkikák nem mindig jelennek meg a legjobb minőségükben, ez azért van, hogy ne robbanjon fel a géped nagyobb dokumentumoknál. A `View > Display Performance` menüpontban tudod beállítani a megjelenési minőséget. Ne felejtsd el visszaállítani :smiley:.
+    Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni mindenféle gizmó és segédvonal nélkül, akkor ++w++-vel tudsz a normál és az előnézet között váltani. Ha mégtovább szeretnéd vinni, akkor létezik a `Presentation Mode` (++shift+w++).
+    A képek és grafkikák nem mindig jelennek meg a legjobb minőségükben. Ez azért van, hogy ne robbanjon fel a géped nagyobb dokumentumoknál. A `View > Display Performance` menüpontban tudod beállítani a megjelenési minőséget. Ne felejtsd el visszaállítani :smiley:.
 
 ### Mester oldalak
 
-A mester oldalak segítségével tudunk oldal mintákat létrehozni. 
-Egy picit hasonlít a PowerPoint mintadiákhoz, elég egyszer elkészítenünk egy oldal elrendezését, és a későbbiekben elég lesz a mintát frissíteni ahhoz, hogy az összes mintát követő oldal egységesen változzon.
+Segítségükkel egységes elrendezést és megjelenést adhatsz több oldalnak egyszerre.
+Ha módosítod a mester oldalt, az ezt használó összes oldal tartalma frissülni fog.
 
 Kattintsunk a `Pages` tabon duplán az `A-Parent`-re, ekkor fogjuk látni és tudjuk szerkeszteni a mester oldalunkat. 
-A bal és jobb oldalak megjelenését értelem szerűen külön tudjuk kezelni, ez a legtöbb esetben csak tükrözést jelent az elrendezésben, de a lehetőségek tárházta végtelen.
+A bal és jobb oldalak megjelenését értelem szerűen külön tudjuk kezelni, ez a legtöbb esetben csak tükrözést jelent az elrendezésben, de a lehetőségek a végtelen.
 
 ![](img/a_parent_1.png){height=360}
 
@@ -145,7 +146,7 @@ Ha mégsem követné, vagy meg akarjuk változtatni, akkor a megfelelő `Parent`
 
 Az ábrákon láthatjuk, hogy miután rákerült a minta, megjelenik egy kis ikon a sarokban, ami jelzi, hogy melyik mester oldalt követi. A kis ikon nagyon jól kitakarja, de látszik alatta a fekete négyzet is, amit ráraktam.
 
-!!! example "Demonstráció"
+??? example "Demonstráció"
     A tényleges oldalon felvettem egy sárga négyzetet.
 
     ![](img/a_parent_2.png){height=200}
@@ -162,10 +163,10 @@ Ha valamit módósítani szeretnénk az oldalunkon, ami egy mester oldal részé
 Alapból a mester oldal elemei védettek, a ++ctrl+shift++ kattintásal tudjuk feloldani őket.
 
 !!! danger "A feloldás mellékhatásai"
-    Ha feloldunk egy elemet a mester oldalról, az később nem fog frissülni, ha szerkesztjük a mester oldalt, ezért ezt csak indokolt esetben használjuk. Ha minden oldalon oldalon feloldunk egy elemet a mestertől, akkor esélyes, hogy valamit rosszul csinálunk.
+    Ha feloldunk egy elemet a mester oldalról, az később nem fog frissülni a mesteroldal szerkesztésekor, ezért ezt csak indokolt esetben használjuk. Ha minden oldalon oldalon feloldunk egy elemet a mestertől, akkor esélyes, hogy valamit rosszul csinálunk.
 
 !!! question "Mit rakhatok egy mester oldalra?"
-    Valójában bármit, a jobb kérdés az lenne, hogy mit érdemes. 
+    Valójában bármit, a jobb kérdés az lenne, hogy **mit érdemes**. 
     
     - **Makrókat**. Ilyen például az oldalszám vagy a fejezetcím. Ezeket a `Type > Text Variables > Insert Variable` és a `Type > Insert Special Character` menüpontokból tudjuk beszúrni.
     - **Képkereteket**. Elég csak a keretet létrehozni, a tartalmát pedig az oldalon tudjuk majd beállítani feloldás nélkül.
@@ -217,7 +218,7 @@ Ez elsőre valószínűleg CMYK színmódban lesz, de a hamburger menüben át t
 ![](img/colour_panel_hamburger.png){width=360}
 
 !!! danger "A színskálán kívül"
-    A nyomtatók CMYK-ban nyomtatnak, ha nem ebben a színtérben választunk színt, megvan az esélye, hogy nem kinyomtatható színt keverünk. Szerencsére az InDesign figyelmeztet, fel is ajánlja a hozzá legközelebb eső színt, ami még belefér, erre rákattintva tudjuk kiválasztani.
+    A nyomtatók CMYK-ban nyomtatnak, ha nem ebben a színtérben választunk színt, megvan az esélye, hogy nem kinyomtatható színt keverünk. Szerencsére az InDesign figyelmeztet, fel is ajánlja a hozzá legközelebb eső színt, ami még belefér. Kattintsunk rá, hogy kiválasszuk.
 
     ![](img/color_gamut_warning.png){width=360}
 
@@ -231,7 +232,7 @@ A színmintákat a `Swatches` panelen érhetjük el.
 
 A felső 4 szín alapbeállítás, a többit ajándékba kaptuk... nem túl szépek, nyugodtan törölhetjük őket.
 
-- `None`: teljesen átlátszó, üres szín, nem fehér. Hasznos pl. csak keretet szeretnénk egy alakzatnak, de a belsejét nem akarjuk kitölteni.
+- `None`: teljesen átlátszó, üres szín, nem fehér. Hasznos ha pl. csak keretet szeretnénk egy alakzatnak, de a belsejét nem akarjuk kitölteni.
 - `[Black]`: nem meglepő módon ez csak fekete.
 
 !!! warning "`[Paper]`"
@@ -241,27 +242,26 @@ A felső 4 szín alapbeállítás, a többit ajándékba kaptuk... nem túl szé
     Ezt a színt **SOHA NE HASZNÁLD**. Ez egy speciális szín, minden tintából a maximumot használja, nem úgy, mint a fekete. Szerkesztés közben cselesen ugyan olyan feketének fog látszani, de ez nyomtatáskor problémát okozhat.
 
 !!! warning "Színminták használata"
-    Nagyobb projektnél sose használj egyedi kikevert színeket! Mindenképp legyen neki egy színminta, és mindenképpen adj neki egy beszédes nevet! Piros pont, ha csinálsz nekik csoportokat is.
+    Nagyobb projektnél sose használj egyedi kikevert színeket! Mindenképp legyen neki egy színminta, és mindenképpen adj neki egy beszédes nevet! Piros pont, ha csinálsz nekik mappákat is.
 
 #### Árnyalatok
 
-Nem gyakran használjuk.
 Ha kijelölünk egy színt, a hamburger menüben tudunk neki új árnyalatot létrehozni a `New Tint Swatch` menüponttal, majd be tudjuk állítani a kívánt árnyalatot. 
 Azért hasznos, mert ha változik az eredeti szín, akkor az árnyalat is vele együtt fog változni.
 Érdemes mappákba rendezni őket, segít kiigazodni, hogy melyik árnyalat melyik színhez tartozik.
 
 ## Könyv
 
-Könyvek segítségével könnyedén tudunk több kisebb dokumentumot egyesíteni, és egyben kezelni őket.
-Ez hasznos lehet, ha nagyobb projekten dolgozunk, a többi kisebb InDesign projekt miatt tudunk egyszerre dolgozni különböző részeken, de később egybe tudjuk őket fogni.
+Könyvek segítségével könnyedén tudunk több kisebb dokumentumot egyesíteni, és együtt kezelni őket.
+Ez hasznos lehet, ha nagyobb projekten dolgozunk: több kisebb InDesign projektünk lesz, ezért egyszerre tudunk dolgozni különböző részeken, és később egybe tudjuk fogni őket.
 
-A `File > New > Book` menüponttal tudunk új könyvet létrehozni vagy az `Open` alatt betölteni egy meglévőt.
+A `File > New > Book` menüponttal tudunk új könyvet létrehozni, vagy az `Open` alatt betölteni egy meglévőt.
 Ekkor előugrik egy kis ablak, ami a könyvünket reprezentálja.
 
 ![](img/book_panel.png)
 
-Itt a `+` gombbal tudunk hozzáadni új dokumentumokat, vagy a `-` gombbal törölni őket.
-Az `Untitled-2` sorában az legelső kis ikonka jelzi a stílus forrást.
+Itt a `+` gombbal tudunk hozzáadni új dokumentumokat, a `-` gombbal törölni.
+Az `Untitled-2` sorában a legelső kis ikonka jelzi a stílus forrást.
 Minden dokumentum az ő stílusait fogja használni.
 Ezt áttehetjük másik dokumentumra, ha a megfelelő dokumentum rublikájába kattintunk.
 Az oda-vissza nyíllal tudjuk szinkronizálni a stílusainkat a kijelölt dokumentum és a stílus forrás között.
@@ -270,4 +270,4 @@ Az oda-vissza nyíllal tudjuk szinkronizálni a stílusainkat a kijelölt dokume
     Ha nem állítunk be oldalszámokat, magától fogja megpróbálni kitalálni. Nem feltétlenül baj, mert sorba tudjuk őket rakni, de egy szebb megoldás, ha minden dokumentumunkban be van állítva, hogy honnan kezdődik és meddig tart.
 
 !!! warning "Nyomtató gomb"
-    **NE** a nyomtató gombbal nyomtasd ki a könyvet, lényegesen kevésbé részletes. Helyette a hamburger menüből elérhető `Export Book to PDF...`-et használd.
+    **NE** a nyomtató gombbal nyomtasd ki a könyvet, lényegesen kevesebb beállítási lehetőséged van. Helyette a hamburger menüből elérhető `Export Book to PDF...`-et használd.

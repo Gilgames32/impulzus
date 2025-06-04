@@ -1,3 +1,6 @@
 # Tipográfia
 
 # Konvenciók
+
+!!! danger ""
+    TODO

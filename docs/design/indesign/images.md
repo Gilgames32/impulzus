@@ -9,17 +9,17 @@ Ha minden jól meg, ez fogad minket:
 
 ![](img/image_gizmos.png){height=360}
 
-??? tip ""
+!!! tip ""
     Képek beszúrásakor, ha csak kattintunk, akkor eredeti méretben szúrja be a képeket, ha viszont húzunk vele egy téglalapot, akkor megspórolhatjuk magunknak a babrálást a gigantikus képekkel.
     (Ha nem látszik a kattintással beszúrt kép, az is lehet, hogy csak túl nagy.)
 
 
-Az méretezés és a mozgatás irányítása a legkevésbé sem magától éretődő, és nekem is rengeteg fejfájás volt eleinte.
+A méretezés és a mozgatás irányítása a legkevésbé sem magától éretődő, és nekem is rengeteg fejfájás volt eleinte.
 
 **Mozgatás:**
 
 - A `Selection Tool`-lal (++v++) tudjuk mozgazni a képet és a keretet egyszerre.
-    - Ha dupla kattintunk a képre, akkor megjelenik a kéz, és a kerettől függetlenül tudjuk mozgazni a képet.
+    - Ha dupla kattintunk a képre, akkor megjelenik a kéz, és a kerettől függetlenül tudjuk mozgazni a képet. Újabb dupla kattintásra visszavált normál működésre.
     - Ezt a középső karika bigyusszal is meg tudjuk tenni: nyomvatartással tudjuk mozgazni a képet a kerettől függetlenül. 
 - A `Direct Selection Tool`-lal (++a++) tudjuk mozgatni a képet a kerettől függetlenül.
 
@@ -34,14 +34,14 @@ Magyarázat:
 **Méretezés, vágás:**
 
 - A `Selection Tool`-lal (++v++) tudjuk a keretet méretezni, de a kép **nem fog vele együtt mozogni**
-    - Ha együttt szeretnénk méretezni a képet és a keretet, tartsuk nyomva a ++ctrl++-t és a kereten található fogantyúkkal méretezzük át.
+    - Ha együtt szeretnénk méretezni a képet és a keretet, tartsuk nyomva a ++ctrl++-t és a kereten található fogantyúkkal méretezzük át.
 
-Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek, ugyan úgy mint bármi más kijelölésnél.
+Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek, ugyan úgy mint bármilyen más kijelölésnél.
 
 !!! tip ""
     ++ctrl+shift++: kép és keret méretezése együtt, tartva a képarányt.
 
-!!! warning "Képarány"
+??? warning "Képarány"
     A ++shift++ különösen fontos, különben elcsúszhat a képarány.
     
     ![](img/image_aspect_warning.png){width=360}
@@ -57,15 +57,15 @@ Nem túl fontos extrák:
 - A láncra ++alt++ kattintva látjuk a linkeket.
 
 !!! tip "Szabad formájú képkeretek"
-    InDesignban is használhatunk szabad formájú képkereteket, nem csak téglalapokat. Ezt a `Pen Tool`lal tudjuk megtenni. A `Pen Tool`ról [itt](extras.md#pen-tool) olvashatsz többet.
+    InDesignban is használhatunk szabad formájú képkereteket, nem csak téglalapokat. Ezt a [`Pen Tool`](extras.md#pen-tool)lal tudjuk megtenni.
     Ha segít, úgy is gondolhatsz a keretre, mint egy maszkra. 
 
-!!! question "Miért jó ez?"
-    Tördeléskor gyakran előfordul, hogy a kép helye és mérete adott: ez a keret. Az viszont, hogy a kép melyik része látszik, mennyire van nagyítva, forgatva stb. viszont kevésbé kötött és akár változhat is a munka során. Így a keretünk tartja a helyet és méretet, a képet viszont tetszőlegesen mozgathatjuk benne, akár ki is cserélhetjük a képet.
+!!! question "Miért jó külön kezelni a keretet?"
+    Tördeléskor gyakran előfordul, hogy a kép helye és mérete adott: ez a keret. Hogy a kép melyik része látszik, mennyire van nagyítva, forgatva stb. viszont már kevésbé kötött, és változhat is a munka során. Így a keretünk tartja a helyet és méretet, a képet viszont tetszőlegesen mozgathatjuk benne, akár ki is cserélhetjük.
 
 ## Körbefutás
 
-Alapesetben ha egy képet szövegre rakunk, ez fogad minket:
+Ha egy képet szövegre rakunk, alapesetben ez fogad minket:
 
 ![](img/image_wrap_over.png){height=360}
 
@@ -84,21 +84,19 @@ A következő opciók érhetők el:
 
 ![](img/image_wrap_panel_box.png){height=360}
 
-A befoglaló téglalap esetén külön megadhatunk margót a keret körül. Ezt a képen a kereten kívüli extra doboz jelöli, és látjuk, ahogy a szöveg tartja az margót.
+A befoglaló téglalap esetén külön megadhatunk margót a keret körül. Ezt a képen a kereten kívüli extra doboz jelöli. Láthatjuk, ahogy a szöveg tartja a margót.
 
 ![](img/image_wrap_box_margin.png){height=360}
 
-![](img/image_wrap_panel_shape.png){height=360}
+A `Wrap Around Object Shape` esetén a szöveg a képt tényleges tartalma körül fog fog futni, de ehhez tudnunk kell a kép tartalmának alakját. Ezt elsőre az InDesign megpróbálja legenerálni, az esetek többségében ez egész jó, főleg ha teszünk rá margót. 
 
-A `Wrap Around Object Shape` esetén a szöveg a képt tényleges tartalma körül fog fog futni, de ehhez tudnunk kell a kép tartalmának alakját. Ezt elsőre az InDesign megpróbálja legenerálni, az esetek többségében egész jó, főleg ha teszünk rá margót. 
-
-![](img/image_wrap_shape.png){height=360}
+![](img/image_wrap_panel_shape.png){height=360} ![](img/image_wrap_shape.png){height=360}
 
 Ha mégse lenne jó, akkor a `Contour Options` alatt választhatunk másik módszert, amivel kitalálja a széleit. Az `Alpha Channel` opció egész jól szokott működni.
 
-Van olyan is persze, hogy pár kóbor pixel a képen elrontja vagy csak buta az algoritmus, ilyenkor a `Pen Tool` segítségével kézzel is szerkeszthetjük a körvonalat. A `Pen Tool`ról [itt](extras.md#pen-tool) olvashatsz többet.
+Persze előfordul, hogy pár kóbor pixel elrontja, vagy csak buta az algoritmus, ilyenkor a [`Pen Tool`](extras.md#pen-tool) segítségével kézzel is szerkeszthetjük a körvonalat.
 
-!!! experiment "Ha nagyon nem akarunk a `Pen Tool`-lal bíbelődni..."
+!!! example "Ha nagyon nem akarunk a `Pen Tool`-lal bíbelődni..."
     Egy elég gányolós megoldás, de működhet: beszúrunk pár láthatatlan alakzatot, és beállítjuk a körbefutást.
     **Ezt csak indokolt eseben használjuk, és mindenképp csináljunk belőlük és a képből egy csoportot (++ctrl+g++)!**
 

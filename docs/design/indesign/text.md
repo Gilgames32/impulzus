@@ -1,7 +1,7 @@
 # Szöveg
 
 Ahogy a legtöbb elem, a szövegek is keretekben/dobozokban vannak.
-Hozzonk létre egy szövegdobozt a `Type Tool`-lal (++t++), és húzzunk vele egy téglalapot a dokumentumon.
+Hozzunk létre egy szövegdobozt a `Type Tool`-lal (++t++), és húzzunk vele egy téglalapot a dokumentumon.
 
 ??? tip "Lorem ipsum"
     A [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) egy klasszikus helyőrző szöveg, amit gyakran használunk, ha nincs még kész szövegünk, vagy gyorsan kell valami a helyére.
@@ -13,11 +13,11 @@ Ha túl sok a szöveg egy szövegdobozban, akkor az InDesign panaszkodni fog, ez
 
 Ha duplán kattintunk valamelyik szélső fogantyúra, akkor automatikusan átméretezi a keretet akkorára, hogy a szöveg elférjen.
 
-Ezt persze nem tehetjük meg mindig, van hogy a szöveget több szövegdobozon át szeretnénk elosztani. Ilyenkor a piros `+` jelre kattintva megfogja a szöveg kilógó részét, és tovább húzhatjuk egy másik szövegdobozba, vagy létrehozhatunk egy újat, ha üres helyre kattintunk vele. Ez az ún. `Text Threading`.
+Ezt persze nem tehetjük meg mindig. Van hogy a szöveget több szövegdobozon át szeretnénk elosztani, ilyenkor a piros `+` jelre kattintva megfogja a szöveg kilógó részét, és tovább húzhatjuk egy másik szövegdobozba, vagy létrehozhatunk egy újat, ha üres helyre kattintunk vele. Ez az ún. `Text Threading`.
 
 ![egy béna kép az adobe honlapjáról](img/adobe_text_thread.png)
 
-Hasonló módon nem csak a szöveg végét, hanem a szöveg elejét is meg tudjuk fogni és átrakni, a bal felső sarokban felülről a második fogantyúval. Ha egy szövegdoboz nem lenne elég, és nem akarjuk egyesével csinálni, az ++alt++-ot nyomvatartva több szövegdobozra is kattinthatunk, ezeket sorban össze fogja kötni, és folyatni fogja bennük a szöveget.
+Hasonló módon nem csak a szöveg végét, hanem a szöveg elejét is meg tudjuk fogni és átrakni, a bal felső sarokban felülről a második fogantyúval. Ha egy szövegdobozba nem férne el, és nem akarjuk egyesével csinálni, az ++alt++-ot nyomvatartva több szövegdobozra is kattinthatunk, ezeket sorban össze fogja kötni, és folyatni fogja bennük a szöveget.
 
 ## Betűk
 
@@ -30,28 +30,29 @@ A gyors beállításokat a felső sávon találjuk, a részleteket pedig a `Prop
 
 ![](img/text_character_bar.png){width=360}
 
-!!! note ""
+!!! tip ""
     A szélső két gombbal tudunk váltani a betűket és a bekezdéseket érintő beállítások között.
 
 Itt tudjuk továbbá beállítani a szöveg nyelvét is, ennek főként a szótagolásnál van jelentősége, de a helyesírás-ellenőrzés is figyelembe veszi.
 
 ## Bekezdések
 
-A legtöbb beállítás itt is hasonló a Word-ös beállításokhoz, nem fogok mindent részletezni.
+A legtöbb beállítás itt is hasonló a Wordös beállításokhoz, nem fogok mindent részletezni.
 
 A gyors beállításokat ehhez is a felső sávon találjuk.
 
 ![](img/text_paragraph_bar.png){width=360}
 
-Itt viszont különösen javaslom a `Properties` panelt, mert sokkal több hasznos dolog van itt.
+Ehhez viszont javasolt inkább a `Properties` panelt használni, sokkal több hasznos dologot találunk itt.
 
 ![](img/text_paragraph_properties.png){height=360}
 
-A hamburger menü további ínyencségeket rejt. Talán már túlságosan részletes, nagyon különleges esetekben van rá csak szükség szerencsére, ezért nem is térnék ki rájuk részletesen.
+??? note "Eldugott finomságok"
+    A hamburger menü további ínyencségeket rejt. Talán már túlságosan is részletes. Szerencsére csak nagyon különleges esetekben van rájuk szükség.
 
-![](img/text_paragraph_hamburger.png){width=360}
+    ![](img/text_paragraph_hamburger.png){width=360}
 
-Viszont van további eldugott beállítások a szövegdobozokhoz: `Object > Text Frame Options...` (++ctrl+b++, jobb klikk, vagy `Properties` panelen is van hozzá gomb). Érdemes bejelölni a `Preview`-t, hogy lássuk a változásokat mielőtt leokéznánk.
+A szövegdobozok beállításai is el vannak dugva, de talán annál fontosabb: `Object > Text Frame Options...` (++ctrl+b++, jobb klikk, vagy `Properties` panelen is van hozzá gomb). Érdemes bejelölni a `Preview`-t, hogy lássuk a változásokat mielőtt leokéznánk.
 
 Az ablakban 5 fül van:
 
@@ -59,11 +60,11 @@ Az ablakban 5 fül van:
     - hasábok
     - belső margók
     - függőleges igazítás (a kereten belül)
-    - **Ignore Text Wrap**: fontos dolog, a képeknél még kitérek rá, röviden annyi, hogy ettől nem fogja körbefutni a képeket
+    - **Ignore Text Wrap**: (fontos dolog, a képeknél még kitérek rá) röviden: nem fogja körbefutni a képeket
 - `Column rules`
     - hasábok közé rakhatunk vele vonalat, nem fontos
 - `Baseline Options`
-    - a szöveg alapvonalait, egyelőre nem fontos
+    - a szöveg alapvonalai, egyelőre nem fontos
 - `Auto Size`
     - automatikus méretezés a szöveg alapján, nem fontos
 - `Footnotes`
@@ -80,7 +81,7 @@ Megkülönböztetünk karakter- és bekezdésstílusokat.
 
 ### Bekezdésstílusok
 
-A `Paragraph Styles` panelen érhető el, itt találjuk a létező stílusokat, ha rákattintunk, akkor tudjuk alkalmazni a kijelölt bekezdésre.
+A `Paragraph Styles` panelen érhető el, itt találjuk a létező stílusokat, rákattintva tudjuk alkalmazni a kijelölt bekezdésre.
 
 ![](img/text_paragraph_styles_panel.png){height=360}
 
@@ -111,11 +112,11 @@ Itt állíthatjuk a hasábok számát, a köztes távolságot, és hogy szeretn�
 
 A `Baseline Grid`, avagy alapvonal rács már kicsit kevésbé magától értetődő.
 Az alapvonal az a vonal, amire a betűk alja illeszkedik (alapesetben).
-Ha ebből képezünk egy rácsot, akkor valami olyasmit kapunk mint egy vonalas füzet, erre a rácsra fog illeszkedni a szövegtörzs.
+Ha ebből képzünk egy rácsot, akkor valami olyasmit kapunk mint egy vonalas füzet, erre a rácsra fog illeszkedni a szövegtörzs.
 Ez különösen szép egymás melletti hasáboknál, mert így biztosan közös alapvonalakra kerülnek majd a sorok, még ha a hasábok mérete eltér is.
 
-Elég furcsa helyre dugták, a beállításait az `Edit > Preferences...` menüben találjuk, a `Grids` fül alatt. 
-Alapból nem biztos hogy mutatni fogja az alapvonalakat, ezt a `View > Grids & Guides > Show Baseline Grid` menüponttal tudjuk bekapcsolni. Ha még így sem látszik, valószínűleg nem nagyítottunk bele eléggé.
+Elég furcsa helyre dugták a beállításait, az `Edit > Preferences...` menüben találjuk a `Grids` fül alatt. 
+Alapból nem biztos hogy mutatni fogja a vonalakat, ezt a `View > Grids & Guides > Show Baseline Grid` menüponttal tudjuk bekapcsolni. Ha még így sem látszik, valószínűleg nem nagyítottunk bele eléggé.
 
 ![](img/text_baseline_without.png){width=360}
 
@@ -139,7 +140,7 @@ Persze lehet, hogy itt most jobban jártunk volna, ha az alapvonal rácsot vessz
     Ha csapatban dolgozol, mindig legyen egységes az alapvonal rács beállítás, és a sorköz mérete.
 
 !!! warning "Ezt is csak mértékkel"
-    Szép és jó, szövegtörzshöz elengedhetetlen, de ez nem mindig kívánt viselkedés, más betűméretű több soros szövegnél kifejezetten baj lehet, de pl. címeknek vagy az oldalszámoknak sem fontos az alapvonal rácsra illeszkedniük.
+    Szép és jó, szövegtörzshöz elengedhetetlen, de ez nem mindig kívánt viselkedés, más betűméretű, több soros szövegnél kifejezetten baj lehet, de pl. címeknek vagy az oldalszámoknak sem fontos az alapvonal rácsra illeszkedniük.
 
 ### Ez is csak egy téglalap
 

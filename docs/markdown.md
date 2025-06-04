@@ -105,6 +105,14 @@ Sehonnan:
 
 ---
 
+## Billentyűkombinációk
+
+++ctrl+shift+alt+super+l++
+
+https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index
+
+---
+
 ## Code
 
 Inline: `look mom im monotype`

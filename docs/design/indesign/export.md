@@ -27,6 +27,9 @@ Ellenőrizzük a színeket és előnézetet! `View > Proof Setup` után `View > 
 
 ## PDF exportálás olvasószerkesztésre
 
+!!! tip "Emlékeztető"
+    Könyvet ne a nyomtató ikonnal exportáld, hanem a hamburgermenüben lévő `Export Book to PDF...` menüponttal.
+
 Ez csak egy előnézet, szóval nem baj, ha a képek minősége alacsonyabb. 
 Ami viszont fontos, hogy kétoldalas exportot csináljunk.
 
@@ -45,7 +48,10 @@ Ha esetleg túl nagy lenne a fájl:
 ## PDF exportálás a nyomdának
 
 !!! danger "Nyomdafüggő"
-    Minden esetben úgy exportálj, ahogy a nyomdád elvárja.
+    Minden esetben úgy exportálj, ahogy a nyomdád elvárja!
+
+!!! danger "CMYK"
+    Ügyeljünk rá, hogy mindenhol (főleg a képeknél) CMYK színmódot használjunk!
 
 Nálunk ez az alábbi lépéseket jelenti:
 

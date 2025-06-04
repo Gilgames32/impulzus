@@ -12,3 +12,19 @@ img[height], img[width] {
     max-height: none;
     min-height: unset;
 }
+
+/* Make admonition body font size same as normal text */
+div.admonition p:not(.admonition-title),
+div.admonition ul,
+div.admonition ol,
+div.admonition li {
+    font-size: .8rem;
+}
+
+div.admonition p:not(.admonition-title) {
+    padding: 0 .7rem;
+}
+
+div.adomnition p.admonition-title {
+    margin: 0 -.7rem;
+}

@@ -1,5 +1,8 @@
 # Design és grafika alapok
 
-vektor, raszter, színelmélet, kompozíció, kontraszt
+<!-- vektor, raszter, színelmélet, kompozíció, kontraszt -->
 
-https://principles.design/
+<!-- https://principles.design/ -->
+
+!!! danger ""
+    TODO
