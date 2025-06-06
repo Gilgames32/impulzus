@@ -14,13 +14,13 @@ Ha minden jól meg, ez fogad minket:
     (Ha nem látszik a kattintással beszúrt kép, az is lehet, hogy csak túl nagy.)
 
 
-A méretezés és a mozgatás irányítása a legkevésbé sem magától éretődő, és nekem is rengeteg fejfájás volt eleinte.
+A méretezés és a mozgatás irányítása a legkevésbé sem magától értetődő, és nekem is rengeteg fejfájás volt eleinte.
 
 **Mozgatás:**
 
-- A `Selection Tool`-lal (++v++) tudjuk mozgazni a képet és a keretet egyszerre.
+- A `Selection Tool`-lal (++v++) tudjuk mozgatni a képet és a keretet egyszerre.
     - Ha dupla kattintunk a képre, akkor megjelenik a kéz, és a kerettől függetlenül tudjuk mozgazni a képet. Újabb dupla kattintásra visszavált normál működésre.
-    - Ezt a középső karika bigyusszal is meg tudjuk tenni: nyomvatartással tudjuk mozgazni a képet a kerettől függetlenül. 
+    - Ezt a középső karika bigyusszal is meg tudjuk tenni: nyomvatartással tudjuk mozgatni a képet a kerettől függetlenül. 
 - A `Direct Selection Tool`-lal (++a++) tudjuk mozgatni a képet a kerettől függetlenül.
 
 ![](img/image_frame_example.png){height=360}
@@ -36,7 +36,7 @@ Magyarázat:
 - A `Selection Tool`-lal (++v++) tudjuk a keretet méretezni, de a kép **nem fog vele együtt mozogni**
     - Ha együtt szeretnénk méretezni a képet és a keretet, tartsuk nyomva a ++ctrl++-t és a kereten található fogantyúkkal méretezzük át.
 
-Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek, ugyan úgy mint bármilyen más kijelölésnél.
+Az különféle módosítók, mint a ++shift++ és az ++alt++, itt is működnek, ugyanúgy mint bármilyen más kijelölésnél.
 
 !!! tip ""
     ++ctrl+shift++: kép és keret méretezése együtt, tartva a képarányt.
@@ -88,7 +88,7 @@ A befoglaló téglalap esetén külön megadhatunk margót a keret körül. Ezt 
 
 ![](img/image_wrap_box_margin.png){height=360}
 
-A `Wrap Around Object Shape` esetén a szöveg a képt tényleges tartalma körül fog fog futni, de ehhez tudnunk kell a kép tartalmának alakját. Ezt elsőre az InDesign megpróbálja legenerálni, az esetek többségében ez egész jó, főleg ha teszünk rá margót. 
+A `Wrap Around Object Shape` esetén a szöveg a képet tényleges tartalma körül fog futni, de ehhez tudnunk kell a kép tartalmának alakját. Ezt elsőre az InDesign megpróbálja legenerálni, az esetek többségében ez egész jó, főleg ha teszünk rá margót.
 
 ![](img/image_wrap_panel_shape.png){height=360} ![](img/image_wrap_shape.png){height=360}
 
@@ -127,7 +127,7 @@ Ha ki szeretnénk cserélni a képet úgy, hogy a keretét megőrizzük, a `Reli
 
 ??? tip "Ha változik az eredeti kép..."
 
-    Ha megváltozik az eredeti kép (fájl), az InDesign problémázhat, hogy nem stimmel. 
+    Ha megváltozik az eredeti kép (fájl), az InDesign problémázhat, hogy nem stimmel.
 
     ![](img/image_links_broken.png){height=360}
 
