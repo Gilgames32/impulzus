@@ -68,7 +68,7 @@ Az ablakban 5 fül van:
 - `Auto Size`
     - automatikus méretezés a szöveg alapján, nem fontos
 - `Footnotes`
-    - lábjegyzet beállítások, őszintén gőzöm sincs hogy mire jó xd
+    - lábjegyzet beállítások, őszintén gőzöm sincs, hogy mire jó xd
 
 ## Stílusok
 
@@ -88,12 +88,12 @@ A `Paragraph Styles` panelen érhető el, itt találjuk a létező stílusokat, 
 Nekem itt most csak az alapbeállítás látható.
 Ha ki van jelölve egy bekezdés, akkor a formai beállításait kimenthetjük stílusba a `+` gombbal.
 
-Dupla kattintással jön elő az ablak, ahol részletesen beállíthatjuk a stílust, ez ismét egy akkora falat, hogy nem fejteném ki. 
-Azt viszont megemlíteném, hogy itt is van lehetőség öröklésre, a mester oldalakhoz hasonlóan. 
+Dupla kattintással jön elő az ablak, ahol részletesen beállíthatjuk a stílust, ez ismét egy akkora falat, hogy nem fejteném ki.
+Azt viszont megemlíteném, hogy itt is van lehetőség öröklésre, a mester oldalakhoz hasonlóan.
 
 ### Karakterstílusok
 
-A `Character Styles` panelen érhető el, a bekezdésstílusokhoz nagyon hasonlóan működik, azzal a különbséggel, hogy kijelölt szövegrészletre tudjuk alkalmazni. 
+A `Character Styles` panelen érhető el, a bekezdésstílusokhoz nagyon hasonlóan működik, azzal a különbséggel, hogy kijelölt szövegrészletre tudjuk alkalmazni.
 
 ![](img/text_character_styles_panel.png){height=360}
 
@@ -103,8 +103,8 @@ Nem használjuk gyakran, pl. linkekhez vagy kiemelésekhez jól jöhet.
 
 Megannyi elrendezést segítő vonalzóra van lehetőségünk, objektumok mozgatásakor és méretezésekor nagyon jól hozzájuk tudnak cuppanni (snap). Egyszerű függőleges és vízszintes vonalzókat a felső és bal vonalzó beosztásokról tudunk behúzni.
 
-Szövegek szempontjából nekünk leginkább a hasábok és a `Baseline Grid` relevánsak. 
-A hasábok beállításai szét vannak szórva (`Layout > Margins and Columns...` és `Text Frame Options...`), de a felső sávban szépen kigyűjtötték nekünk. 
+Szövegek szempontjából nekünk leginkább a hasábok és a `Baseline Grid` relevánsak.
+A hasábok beállításai szét vannak szórva (`Layout > Margins and Columns...` és `Text Frame Options...`), de a felső sávban szépen kigyűjtötték nekünk.
 
 ![](img/text_cols.png)
 
@@ -113,14 +113,14 @@ Itt állíthatjuk a hasábok számát, a köztes távolságot, és hogy szeretn�
 A `Baseline Grid`, avagy alapvonal rács már kicsit kevésbé magától értetődő.
 Az alapvonal az a vonal, amire a betűk alja illeszkedik (alapesetben).
 Ha ebből képzünk egy rácsot, akkor valami olyasmit kapunk mint egy vonalas füzet, erre a rácsra fog illeszkedni a szövegtörzs.
-Ez különösen szép egymás melletti hasáboknál, mert így biztosan közös alapvonalakra kerülnek majd a sorok, még ha a hasábok mérete eltér is.
+Ez különösen szép egymás melletti hasáboknál, mert így biztosan közös alapvonalakra kerülnek majd a sorok, még ha a hasábok mérete el is tér.
 
-Elég furcsa helyre dugták a beállításait, az `Edit > Preferences...` menüben találjuk a `Grids` fül alatt. 
+Elég furcsa helyre dugták a beállításait, az `Edit > Preferences...` menüben találjuk a `Grids` fül alatt.
 Alapból nem biztos hogy mutatni fogja a vonalakat, ezt a `View > Grids & Guides > Show Baseline Grid` menüponttal tudjuk bekapcsolni. Ha még így sem látszik, valószínűleg nem nagyítottunk bele eléggé.
 
 ![](img/text_baseline_without.png){width=360}
 
-Alaból nem fogják a szövegek követni az alapvonalakat, ehhez jelöljöük ki a szövegdobozt, majd keressük meg a `Properties` panelen az `Align to Baseline Grid` gombot (ugyan ez megtalálható a felső sávban is, ha a `Text Tool` van kiválasztva és `Paragraph`-ra váltunk).
+Alapból nem fogják a szövegek követni az alapvonalakat, ehhez jelöljük ki a szövegdobozt, majd keressük meg a `Properties` panelen az `Align to Baseline Grid` gombot (ugyanez megtalálható a felső sávban is, ha a `Text Tool` van kiválasztva és `Paragraph`-ra váltunk).
 
 ![](img/text_baseline_setting.png)
 

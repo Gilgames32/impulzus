@@ -8,7 +8,7 @@ Ez fogad minket elsőre, itt tudunk új dokumentumot létrehozni.
 
 ![](img/home.png)
 
-Részletesebb beállíátokat a `More Presets` alatt találunk. Nekünk egyelőre elég az alap A4-es.
+Részletesebb beállításokat a `More Presets` alatt találunk. Nekünk egyelőre elég az alap A4-es.
 
 ## A felület
 
@@ -18,13 +18,13 @@ Ha először nyitjuk meg az InDesignt, akkor ez a munkaterület fogad minket. Mi
 A fejlécen az `Essentials` feliratra kattintva válasszuk ki az `Advanced` nézetet.
 
 !!! note "A workspacekről"
-    A többi Adobe programhoz hasonlóan itt is vannak előre definiált munkaterületek, és itt is hasonló módon személyre tudjuk szabni az elrendezést és az előbeállításokat. Ha elrontanánk valamit, akkor ugyan ebben a legördülő menüben tudjuk visszaállítani az alapértelmezésre. A workspacek panelekből (avagy tab groupokból) és tabokból állnak, ezek elrendezését és viselkedését egyesével tudjuk állítani. Javaslom, hogy játszadozz el vele egy kicsit (ha már van egy megszokott elrendezésed, akkor esetleg mentsd el előtte xd), a későbiekben nagyon hasznos lesz. 
+    A többi Adobe programhoz hasonlóan itt is vannak előre definiált munkaterületek, és itt is hasonló módon személyre tudjuk szabni az elrendezést és az előbeállításokat. Ha elrontanánk valamit, akkor ugyanebben a legördülő menüben tudjuk visszaállítani az alapértelmezésre. A workspacek panelekből (avagy tab groupokból) és tabokból állnak, ezek elrendezését és viselkedését egyesével tudjuk állítani. Javaslom, hogy játszadozz el vele egy kicsit (ha már van egy megszokott elrendezésed, akkor esetleg mentsd el előtte xd), a későbbiekben nagyon hasznos lesz. 
 
-Az Advanced nézet sem tökéletes, hiányzik pár alapvető dolok, ezeket a `Window` menüből tudjuk elővenni. 
-Ezek elsőre lehet, hogy lebegő ablakokban jelennek meg, ha szeretnénk, a legtöbb dolgok hozzá tudjuk adni (csak odahúzod) a paneljeinkhez, hogy legközelebb kéznél legyenek.
+Az Advanced nézet sem tökéletes, hiányzik pár alapvető dolog, ezeket a `Window` menüből tudjuk elővenni. 
+Ezek elsőre lehet, hogy lebegő ablakokban jelennek meg, ha szeretnénk, a legtöbb dolgot hozzá tudjuk adni (csak odahúzod) a paneljeinkhez, hogy legközelebb kéznél legyenek.
 
 !!! question ""
-    Az útmutató során esélyes, hogy olyan paneleket fogok használni, amik nem/másképp szerepelnek alapból. Ne ijedj meg, minden elérhető a `Window` menüben, és nem baj ha más az elrendezésed, ez ízlés kérdése.
+    Az útmutató során esélyes, hogy olyan paneleket fogok használni, amik nem/másképp szerepelnek alapból. Ne ijedj meg, minden elérhető a `Window` menüben, és nem baj, ha más az elrendezésed, ez ízlés kérdése.
 
 ### Nagy vonalakban
 
@@ -34,14 +34,14 @@ Legfelül a menük, alatta az eszköz specifikus vezérlő panel (felső sáv), 
 
 Az Adobe programok egyik legnagyobb átka, hogy eltér minden eddig megszokott program legalapvetőbb gyorsbillentyűitől.
 
-- ++space++ + bal egérgomb: ha nyomva tartod tudod vele mozgazni a dokumentumot
+- ++space++ + bal egérgomb: ha nyomva tartod, akkor mozgatni tudod vele a dokumentumot
 - ++alt++ + görgő: nagyítás és kicsinyítés
 - görgő: függőleges tekerés
 - ++ctrl++ + görgő: vízszintes tekerés
 - ++ctrl+z++: visszavonás
 - ++ctrl+shift+z++: újra
 
-Nem kell minden gyorsbillentyűt tudni kívülről, később a nagy részét amúgy is meg fogod tanulni, de fel fogom majd tüntetni őket, és ha valamilyen eszköz fölé viszed az egeredet is mutatni szokta, menüpontokban írja. Ha nagyon akarod, az `Edit > Keyboard Shortcuts` menüben lehet állítani.
+Nem kell minden gyorsbillentyűt tudni kívülről, később a nagy részét amúgy is meg fogod tanulni, de fel fogom majd tüntetni őket, és ha valamilyen eszköz fölé viszed az egeredet, akkor is mutatni szokta, menüpontokban írja. Ha nagyon akarod, az `Edit > Keyboard Shortcuts` menüben lehet állítani.
 
 
 # Alap koncepciók
@@ -69,7 +69,7 @@ Például a téglalapunk esetén kiválaszthatunk pontokat és szabadon mozgatha
 ![](img/objects_dst_2.png){height=360}
 
 !!! tip "A módosítóbillenytűk általánosságban"
-    A módosítóbillentyűk a legtöbb objektumnál ugyan úgy viselkednek.
+    A módosítóbillentyűk a legtöbb objektumnál ugyanúgy viselkednek.
 
     - ++shift++: méretezésnél tartja az arányokat, mozgatásnál csak vízszintesen, függőlegesen és átlósan enged mozgatni, forgatásnál 45 fokos lépésekben forgat
     - ++alt++: méretezésnél a középpontból méretez, ha nyomva tartjuk és úgy mozgatunk valamit, akkor lemásolja az objektumot
@@ -124,7 +124,7 @@ Minden oldalpárhoz tartozik körülötte lelógó hely (pasteboard).
 Ami lelóg, vagy nincs rajta az oldalon, az nem fog megjelenni nyomtatásban, de a szerkesztéskor hasznos lehet, ha pl. még nem találod valaminek a helyét. 
 
 !!! tip "Előnézetek"
-    Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni mindenféle gizmó és segédvonal nélkül, akkor ++w++-vel tudsz a normál és az előnézet között váltani. Ha mégtovább szeretnéd vinni, akkor létezik a `Presentation Mode` (++shift+w++).
+    Ha látni szeretnéd, hogy mi fog ténylegesen megjelenni mindenféle gizmó és segédvonal nélkül, akkor ++w++-vel tudsz a normál és az előnézet között váltani. Ha még tovább szeretnéd vinni, akkor létezik a `Presentation Mode` (++shift+w++).
     A képek és grafkikák nem mindig jelennek meg a legjobb minőségükben. Ez azért van, hogy ne robbanjon fel a géped nagyobb dokumentumoknál. A `View > Display Performance` menüpontban tudod beállítani a megjelenési minőséget. Ne felejtsd el visszaállítani :smiley:.
 
 ### Mester oldalak
@@ -133,7 +133,7 @@ Segítségükkel egységes elrendezést és megjelenést adhatsz több oldalnak 
 Ha módosítod a mester oldalt, az ezt használó összes oldal tartalma frissülni fog.
 
 Kattintsunk a `Pages` tabon duplán az `A-Parent`-re, ekkor fogjuk látni és tudjuk szerkeszteni a mester oldalunkat. 
-A bal és jobb oldalak megjelenését értelem szerűen külön tudjuk kezelni, ez a legtöbb esetben csak tükrözést jelent az elrendezésben, de a lehetőségek a végtelen.
+A bal és jobb oldalak megjelenését értelemszerűen külön tudjuk kezelni, ez a legtöbb esetben csak tükrözést jelent az elrendezésben, de a lehetőségek száma végtelen.
 
 ![](img/a_parent_1.png){height=360}
 
@@ -159,11 +159,11 @@ Az ábrákon láthatjuk, hogy miután rákerült a minta, megjelenik egy kis iko
 
     ![](img/a_parent_4.png){height=200}
 
-Ha valamit módósítani szeretnénk az oldalunkon, ami egy mester oldal részét képezi, elsőre nem fog menni.
+Ha valamit módosítani szeretnénk az oldalunkon, ami egy mester oldal részét képezi, elsőre nem fog menni.
 Alapból a mester oldal elemei védettek, a ++ctrl+shift++ kattintásal tudjuk feloldani őket.
 
 !!! danger "A feloldás mellékhatásai"
-    Ha feloldunk egy elemet a mester oldalról, az később nem fog frissülni a mesteroldal szerkesztésekor, ezért ezt csak indokolt esetben használjuk. Ha minden oldalon oldalon feloldunk egy elemet a mestertől, akkor esélyes, hogy valamit rosszul csinálunk.
+    Ha feloldunk egy elemet a mester oldalról, az később nem fog frissülni a mester oldal szerkesztésekor, ezért ezt csak indokolt esetben használjuk. Ha minden oldalon oldalon feloldunk egy elemet a mestertől, akkor esélyes, hogy valamit rosszul csinálunk.
 
 !!! question "Mit rakhatok egy mester oldalra?"
     Valójában bármit, a jobb kérdés az lenne, hogy **mit érdemes**. 
@@ -172,7 +172,7 @@ Alapból a mester oldal elemei védettek, a ++ctrl+shift++ kattintásal tudjuk f
     - **Képkereteket**. Elég csak a keretet létrehozni, a tartalmát pedig az oldalon tudjuk majd beállítani feloldás nélkül.
     - Szöveget, fenntartásokkal. Amit lehet, igyekezzünk makróval. A szövegkeret tartalmának szerkesztéséhez fel kell oldani azt az elemet, elvész a kapcsolat a mester oldallal, viszont a szövegstílust megtartja. Szövegstílusokról később lesz szó.
 
-Új mester oldalthoz jobb klikkeljünk egy meglévőre, és válasszuk a `New Parent` menüpontot.
+Új mester oldalhoz jobb klikkeljünk egy meglévőre, és válasszuk a `New Parent` menüpontot.
 
 ![](img/new_parent.png){height=360}
 
@@ -206,7 +206,7 @@ A `Facing Pages` állítja, hogy oldalpárokat használunk-e, vagy sem.
 Ha lenyitjuk, előjönnek a `Bleed` és a `Slug` beállítások is.
 
 !!! danger "Kifutó"
-    A kifutó (`Bleed`) a papír szélén túlnyúló rész. A nyomdák miatt van rá szükség, nem mindig tudják pontosan vágni a papírt, így a mérete is nyomdafüggő. Ha pl. egy képet a lap szélére teszünk, de nem fut ki a kifutóig, akkor vágásnál lehet, hogy egy fehér csíkot is kapunk ajándékba mellé. Ez persze nem néz ki szépen, így mindeképpen húzzunk ki minden lap szélét érintő képet és grafikát a kifutó széléig. Arra is ügyeljünk, hogy lényegi része a képnek ne kerüljön a kifutóba, ha tökéletesen vágnák is nézzen ki jól. Az előnézet (++w++) sokat tud segíteni ebben is, nem mutatja a kifutó részt.
+    A kifutó (`Bleed`) a papír szélén túlnyúló rész. A nyomdák miatt van rá szükség, nem mindig tudják pontosan vágni a papírt, így a mérete is nyomdafüggő. Ha pl. egy képet a lap szélére teszünk, de nem fut ki a kifutóig, akkor vágásnál lehet, hogy egy fehér csíkot is kapunk ajándékba mellé. Ez persze nem néz ki szépen, így mindenképpen húzzunk ki minden lap szélét érintő képet és grafikát a kifutó széléig. Arra is ügyeljünk, hogy lényegi része a képnek ne kerüljön a kifutóba, ha tökéletesen vágnák is nézzen ki jól. Az előnézet (++w++) sokat tud segíteni ebben is, nem mutatja a kifutó részt.
 
 
 ## Színek
@@ -239,7 +239,7 @@ A felső 4 szín alapbeállítás, a többit ajándékba kaptuk... nem túl szé
     Ezt az egy alapbeállítást tudjuk állítani, megváltoztatja **minden** papír színét. Nem ajánlott állítgatni, hacsak nem **fixen minden** oldalunk színes lesz. Ha csak egy-egy oldalt szeretnénk átszínezni, akkor inkább tegyünk be egy nagy téglalapot a háttérbe, és zároljuk.
 
 !!! danger "`[Registration]`"
-    Ezt a színt **SOHA NE HASZNÁLD**. Ez egy speciális szín, minden tintából a maximumot használja, nem úgy, mint a fekete. Szerkesztés közben cselesen ugyan olyan feketének fog látszani, de ez nyomtatáskor problémát okozhat.
+    Ezt a színt **SOHA NE HASZNÁLD**. Ez egy speciális szín, minden tintából a maximumot használja, nem úgy, mint a fekete. Szerkesztés közben cselesen ugyanolyan feketének fog látszani, de ez nyomtatáskor problémát okozhat.
 
 !!! warning "Színminták használata"
     Nagyobb projektnél sose használj egyedi kikevert színeket! Mindenképp legyen neki egy színminta, és mindenképpen adj neki egy beszédes nevet! Piros pont, ha csinálsz nekik mappákat is.

@@ -34,7 +34,7 @@ A kiinduló fájlok valószínűleg tartalmazni fognak rétegeket:
 
 Amihez csak tudunk használjunk stílusokat, mintákat, könyvtári elemeket stb.
 
-- egyedileg kever színek helyett használjunk színmintákat és színárnyalatokat
+- egyedileg kevert színek helyett használjunk színmintákat és színárnyalatokat
 - szöveghez használjunk bekezdésstílusokat, csak indokolt esetben formázzuk egyedileg
 - ha nem találod a stílusokat vagy a palettát, ellenőrizd, hogy szinkronizálva vagy-e a könyvvel, és hogy jó kiindulófájlból dolgozol
 
@@ -54,7 +54,7 @@ Válasszuk ki a kívánt elemet és húzzuk be a dokumentumba.
     - szabad formáknál akár 5mm is, ahogy jól néz ki
 - grafikákat **vektoros** formátumban (svg), ha létezik ilyen változat
 - mellőzzük a díszes képkereteket
-- a lekerekítés legyen egységes, vagy sehol, vagy mindenhol, de akkor ugyan annyi (jelenleg nem használunk ilyet)
+- a lekerekítés legyen egységes, vagy sehol, vagy mindenhol, de akkor ugyanannyi (jelenleg nem használunk ilyet)
 - fotók forrása legyen megjelölve
     - a SPOT-ot nem szoktuk egyesével minden képhez megjelölni, őket külön megemlítjük az elején
 - szabad formájú körbefuttatott képekhez külön formákat csak indokolt esetben, különben [`Pen Tool`](extras.md#pen-tool) használata
