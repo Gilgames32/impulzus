@@ -17,7 +17,7 @@
 !!! danger ""
     TODO
 
-## Obejktumstílusok
+## Objektumstílusok
 
 - van ilyen is
 - ha vágod a karakter- és bekezdésstílusokat, akkor ez pont úgy működik, ahogy gondolnád
