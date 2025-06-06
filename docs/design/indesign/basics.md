@@ -34,7 +34,7 @@ Legfelül a menük, alatta az eszköz specifikus vezérlő panel (felső sáv), 
 
 Az Adobe programok egyik legnagyobb átka, hogy eltér minden eddig megszokott program legalapvetőbb gyorsbillentyűitől.
 
-- ++space++ + bal egérgomb: ha nyomva tartod, akkor tudod vele mozgatni a dokumentumot
+- ++space++ + bal egérgomb: ha nyomva tartod, akkor mozgatni tudod vele a dokumentumot
 - ++alt++ + görgő: nagyítás és kicsinyítés
 - görgő: függőleges tekerés
 - ++ctrl++ + görgő: vízszintes tekerés
