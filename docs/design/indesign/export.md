@@ -3,7 +3,7 @@
 ## Exportálás előtt
 
 `Preflight` ellenőrzés. Alsó sor színes karika melleti nyíl, vagy ++ctrl+alt+shift+f++.
-Erre figyeljünk, ha ilyen hiba marad benne az semmiképp sem jó. 
+Erre figyeljünk, ha ilyen hiba marad benne az semmiképp sem jó.
 
 Csinálhatunk saját preflight profilt is, ha még nincsen. Hamburger menü, `Define Preflight Profiles...`, majd `+`.
 
@@ -30,7 +30,7 @@ Ellenőrizzük a színeket és előnézetet! `View > Proof Setup` után `View > 
 !!! tip "Emlékeztető"
     Könyvet ne a nyomtató ikonnal exportáld, hanem a hamburgermenüben lévő `Export Book to PDF...` menüponttal.
 
-Ez csak egy előnézet, szóval nem baj, ha a képek minősége alacsonyabb. 
+Ez csak egy előnézet, szóval nem baj, ha a képek minősége alacsonyabb.
 Ami viszont fontos, hogy kétoldalas exportot csináljunk.
 
 - `General`
