@@ -7,19 +7,57 @@
 
 ## Mappaszervezés
 
-!!! danger ""
-    TODO
+`D:\#Újság\`
+
+- `ReDesign`: minden kiinduló fájl és erőforrás (képek, font stb.)
+- évenként és számonként bontva a mappák
+    - `Képek`
+    - `Export`
+    - ...
+
+> átdolgozás alatt...
 
 ### Lock fájlok
 
 ![](img/lockfile.png)
 
-Ha ehhez hasonló lock fájlokat látsz, akkor azt a dokumentumot éppen valaki szerkeszti. Amíg be nem zárja, addig más nem fér hozzá, feleslegesen ne hagyjunk nyitva dokumentumokat.
+Ha ehhez hasonló lock fájlokat látsz, akkor azt a dokumentumot éppen valaki szerkeszti. Amíg be nem zárja, addig más nem fér hozzá. Feleslegesen ne hagyjunk nyitva dokumentumokat!
 
-## Kiinduló fájlok és könyvtárak
+## Hogyan kezdj neki
 
-!!! danger ""
-    TODO
+- legyen nyitva az adott számhoz tartozó könyv
+    - benne 
+        - a borítóhoz tartozó dokumentum
+        - a kategóriákhoz tartozó dokumentumok
+    - **legyen a borító a stílus forrása** (kis ikon az indesign file logó mellett)
+    - ![](img/starter_book.png)
+
+- az oldalak legyenek megfelelően beállítva
+    - `Pages > Numbering & Section Options`
+    - első oldal és terjedelem legyen beállítva
+    - a `Section Marker` legyen a kategória címe
+    - az oldalak kövessék a K-Kategória mesteroldalt
+
+- a `ReDesign` mappában található az Impulzus Design Library
+    - érdemes ezt is megnyitni, és valahova kitenni
+
+### Impulzus könyvtár
+
+> avagy Design Library
+
+Ez egy `.indl` fájl, ami tartalmaz pár előre definiált elrendezést.
+Nyissuk meg és tegyük ki valamelyik panelre.
+Válasszuk ki a kívánt elemet és húzzuk be a dokumentumba.
+Ügyeljünk, hogy **illeszkedjen a margókhoz és a dokumentum széleihez!**
+
+Magyarázat:
+
+- `J`: jobb oldal
+- `B`: bal oldal
+- `M`: mindkét oldalon működik
+- általában van egy főcím, egy alcím, egy bevezető és a két hasábban a szöveg törzse
+- vannak erre egyesített elemek, de egyesével is berakhatjuk
+- figyeljünk, hogy az elemek szélei érjenek össze (a margók jól be kéne legyenek állítva)
 
 ### Rétegek
 
@@ -38,14 +76,6 @@ Amihez csak tudunk használjunk stílusokat, mintákat, könyvtári elemeket stb
 - szöveghez használjunk bekezdésstílusokat, csak indokolt esetben formázzuk egyedileg
 - ha nem találod a stílusokat vagy a palettát, ellenőrizd, hogy szinkronizálva vagy-e a könyvvel, és hogy jó kiindulófájlból dolgozol
 
-### Impulzus könyvtár
-
-> avagy Design Library
-
-Ez egy `.indl` fájl, ami tartalmaz pár előre definiált elrendezést.
-Nyissuk meg és tegyük ki valamelyik panelre.
-Válasszuk ki a kívánt elemet és húzzuk be a dokumentumba.
-Ügyeljünk, hogy illeszkedjen a margókhoz és a dokumentum széleihez!
 
 ## Képek
 
