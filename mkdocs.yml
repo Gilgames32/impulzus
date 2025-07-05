@@ -19,6 +19,10 @@ nav:
       - Extrák: design/indesign/extras.md
     - Design alapok: design/design.md
     - Tipográfia: design/typography.md
+  - Korrektúra:
+    - Folyamat: proofreading/process.md
+    - Helyesírás: proofreading/spelling.md
+    - Zárókorrektúra: proofreading/closing.md
   - Markdown: markdown.md
 
 theme:
