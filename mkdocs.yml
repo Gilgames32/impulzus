@@ -8,6 +8,8 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Hozzájárulás: contributing.md
+  - Írás:
+    - Útmutató: writing/guide.md
   - Design:
     - InDesign:
       - design/indesign/index.md
