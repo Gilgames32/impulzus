@@ -25,6 +25,6 @@ div.admonition p:not(.admonition-title) {
     padding: 0 .7rem;
 }
 
-div.adomnition p.admonition-title {
+div.admonition p.admonition-title {
     margin: 0 -.7rem;
 }

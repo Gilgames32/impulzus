@@ -4,22 +4,39 @@
 
 > Előre szólok, hogy ez nem lesz túl koherens, sem részletekbe menő
 
+## Zárótördelés
+
+> nem feltétlenül csak ez, és nem ebben a sorrendben
+
+- borítót, impresszumot nézd át, hogy a szám specifikus adatok jók
+- a `_szín` bekezdés és objektumstílusokat állítsd be
+- tartalomjegyzék
+    - ajánlott generálni, majd kézzel javítani
+    - főcímekből és kategóriacímekből táplálkozik
+    - jó kérdés hogy könyvön belül működik-e xd
+    - éppen ezért kell minden kategória első kategóriacímét feloldani
+        - ++ctrl+shift++ kattintással
+
 ## Tabulátorok
 
-!!! danger ""
-    TODO
+- `Type > Tabs` vagy ++ctrl+shift+t++ 
+- a paragrafstílusk része
+- `Leader` adja meg a köztes karakter(eke)t
+- a nyíl adja meg, hogy ott épp merre zárt
 
 ## Tartalomjegyzék
 
 - `Layout > Table of Contents...`
 - bekezdésstílusok alapján generálja
-
-!!! danger ""
-    TODO
+- tudod utólag módosítani a tartalmát manuálisan
+- van neki és érdemes stílust használni hozzá
+- kicsit összetett de nem túl vészes
+- `Layout > Update Table of Contents...` ha már változtak az adatok azóta, manuális változtatások elvesznek
 
 ## Objektumstílusok
 
 - van ilyen is
+- extrémen részletes
 - ha vágod a karakter- és bekezdésstílusokat, akkor ez pont úgy működik, ahogy gondolnád
 
 ## Színminták
@@ -85,6 +102,7 @@ A többi Adobe szoftverhez hasonlóan működik itt is. Görbéket és formákat
 > https://helpx.adobe.com/indesign/using/formatting-paragraphs.html
 
 - `Paragraph` ablak hamburgermenüje `> Keep Options` (vagy ++ctrl+alt+k++)
+- pl. a fejezetcím stílusoknál jól jön, hogy ne szedje szét
 - ha manuálisan akarunk babrálni ezen felül: `Type > Insert Break Character` (sortörés, oldaltörés stb.)
 
 ## Horgonyok
@@ -105,7 +123,7 @@ A többi Adobe szoftverhez hasonlóan működik itt is. Görbéket és formákat
     - azt is megadhatjuk, hogy ne az alapvonalhoz viszonyítson, hanem pl. a szövegdobozhoz
     - alatta pedig ezek alapján megadhatjuk az eltolást
     - `Relative to Spine`nal tudunk trükközi, hogy a gerinctől függően hogyan viszonyítson 
-- text threadinget és horgonyokat nem tudunk egyszerre használni
+- text threadinget és horgonyokat nem tudunk egyszerre használni :\(
 
 ## Oldalfüggetlenség
 
