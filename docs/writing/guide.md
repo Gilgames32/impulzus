@@ -1,6 +1,7 @@
 ## Formai kritériumok
 
 - A kéziratokat Google Docs vagy .docx formátumban várjuk, Times New Roman 12-es betűmérettel.
+- Az újság formátuma B5, ennek megfelelően egy oldal maximum 4000 karaktert jelent. Kevesebb lehet, de ne túl sokkal.
 - A fájl neve legyen a cikk címe, ami az íráson belül is szerepeljen a szöveg elején félkövéren.
 - Szövegen belüli kiemelésekhez lehetőleg a dőlt betűt használd.
 - Az idézeteket idézőjel közé írd, az idézeten belüli idézetet pedig az alábbi módon jelöld: »...«.
