@@ -6,7 +6,7 @@ A kész újság több dokumentumból áll, ezeket egy könyvbe (Book) szedjük.
 !!! warning "Fontos"
     Egy dokumentumban csak egyetlen szín (azaz kategória) lehet, a kategóriák színezése miatt.
 
-Kategóriánál kisebb részekre, akár oldalakra is lehet bondtani, ez számonként eltérhet.
+Kategóriánál kisebb részekre, akár oldalakra is lehet bontani, ez számonként eltérhet.
 
 ## Mappaszervezés
 
@@ -35,7 +35,7 @@ Ha ehhez hasonló lock fájlokat látsz, akkor azt a dokumentumot éppen valaki 
     - benne 
         - a borítóhoz tartozó dokumentum
         - a kategóriákhoz tartozó dokumentumok
-            - ebből nem biztos, hogy megvan mind, ha nincs meg ami éppen kell, másold le a kiinduló fájlt a `ReDesign` mappából
+            - ebből nem biztos, hogy megvan mind, ha nincs meg, ami éppen kell, másold le a kiinduló fájlt a `ReDesign` mappából
     - **legyen a borító a stílus forrása** (kis ikon az indesign file logó mellett)
     - ![](img/starter_book.png)
 

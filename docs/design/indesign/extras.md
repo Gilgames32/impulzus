@@ -8,19 +8,19 @@
 
 > nem feltétlenül csak ez, és nem ebben a sorrendben
 
-- borítót, impresszumot nézd át, hogy a szám specifikus adatok jók
-- a `_szín` bekezdés és objektumstílusokat állítsd be
+- borítót, impresszumot nézd át, hogy a szám specifikus adatok jók-e
+- a `_szín` bekezdés- és objektumstílusokat állítsd be
 - tartalomjegyzék
     - ajánlott generálni, majd kézzel javítani
     - főcímekből és kategóriacímekből táplálkozik
-    - jó kérdés hogy könyvön belül működik-e xd
+    - jó kérdés, hogy könyvön belül működik-e xd
     - éppen ezért kell minden kategória első kategóriacímét feloldani
         - ++ctrl+shift++ kattintással
 
 ## Tabulátorok
 
 - `Type > Tabs` vagy ++ctrl+shift+t++ 
-- a paragrafstílusk része
+- a bekezdésstílusok része
 - `Leader` adja meg a köztes karakter(eke)t
 - a nyíl adja meg, hogy ott épp merre zárt
 
@@ -30,7 +30,7 @@
 - bekezdésstílusok alapján generálja
 - tudod utólag módosítani a tartalmát manuálisan
 - van neki és érdemes stílust használni hozzá
-- kicsit összetett de nem túl vészes
+- kicsit összetett, de nem túl vészes
 - `Layout > Update Table of Contents...` ha már változtak az adatok azóta, manuális változtatások elvesznek
 
 ## Objektumstílusok
