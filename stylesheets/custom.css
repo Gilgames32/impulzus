@@ -1,0 +1,30 @@
+/* Fixing admonitions */
+div.admonition p:not(.admonition-title) {
+    white-space: pre-wrap;
+}
+
+/* Enables image attributes */
+img[height], img[width] {
+    height: revert-layer;
+    width: revert-layer;
+    max-width: none;
+    min-width: unset;
+    max-height: none;
+    min-height: unset;
+}
+
+/* Make admonition body font size same as normal text */
+div.admonition p:not(.admonition-title),
+div.admonition ul,
+div.admonition ol,
+div.admonition li {
+    font-size: .8rem;
+}
+
+div.admonition p:not(.admonition-title) {
+    padding: 0 .7rem;
+}
+
+div.admonition p.admonition-title {
+    margin: 0 -.7rem;
+}
